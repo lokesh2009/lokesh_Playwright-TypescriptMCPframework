@@ -1,0 +1,3261 @@
+﻿node.exe : This Node.js version (v22.22.1) has not been tested with this 
+version of Cucumber; it should work normally, but please raise an issue if you 
+see anything unexpected.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (This Node.js ve...ing unexpected. 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[dotenv@17.2.3] injecting env (11) from .env -- tip: Γ£à audit secrets and track compliance: https://dotenvx.com/ops
+Warning: Could not load API helper module: Cannot find module 
+'../../Utility/apiHelper'
+Require stack:
+- C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\api\compareDe
+alerSteps.js
+- C:\Users\lokesh.sharma\playwright-js-E2E-Automation\node_modules\@cucumber\cu
+cumber\lib\try_require.js
+- C:\Users\lokesh.sharma\playwright-js-E2E-Automation\node_modules\@cucumber\cu
+cumber\lib\api\support.js
+- C:\Users\lokesh.sharma\playwright-js-E2E-Automation\node_modules\@cucumber\cu
+cumber\lib\api\load_support.js
+- C:\Users\lokesh.sharma\playwright-js-E2E-Automation\node_modules\@cucumber\cu
+cumber\lib\api\index.js
+- C:\Users\lokesh.sharma\playwright-js-E2E-Automation\node_modules\@cucumber\cu
+cumber\lib\cli\index.js
+- C:\Users\lokesh.sharma\playwright-js-E2E-Automation\node_modules\@cucumber\cu
+cumber\lib\cli\run.js
+- C:\Users\lokesh.sharma\playwright-js-E2E-Automation\node_modules\@cucumber\cu
+cumber\bin\cucumber.js
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ≡ƒöÉ prevent committing .env to code: https://dotenvx.com/precommit
+before all - launching browser...
+
+============================================================
+START: Validate dealer data consistency between API1 and API2
+============================================================
+..before scenario - creating context and page...
+.F---after scenario...
+.
+============================================================
+END: Validate dealer data consistency between API1 and API2 (463ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Audit homepage performance
+============================================================
+..before scenario - creating context and page...
+2026-03-24T10:50:14.552Z LH:ChromeLauncher Waiting for browser.
+2026-03-24T10:50:14.553Z LH:ChromeLauncher Waiting for browser...
+2026-03-24T10:50:15.069Z LH:ChromeLauncher Waiting for browser.....
+2026-03-24T10:50:15.070Z LH:ChromeLauncher Waiting for browser.....[32mΓêÜ[0m
+2026-03-24T10:50:15.624Z LH:status Connecting to browser
+2026-03-24T10:50:15.629Z LH:status Navigating to about:blank
+2026-03-24T10:50:15.634Z LH:status Benchmarking machine
+2026-03-24T10:50:16.639Z LH:status Host device pixel ratio
+2026-03-24T10:50:16.640Z LH:status Preparing target for navigation mode
+2026-03-24T10:50:16.657Z LH:status Cleaning origin data
+2026-03-24T10:50:16.671Z LH:status Cleaning browser cache
+2026-03-24T10:50:16.704Z LH:status Preparing network conditions
+2026-03-24T10:50:16.796Z LH:status Navigating to 
+https://www.sargentsequipmentwi.com/
+2026-03-24T10:50:27.383Z LH:status Getting artifact: DevtoolsLog
+2026-03-24T10:50:27.384Z LH:status Getting artifact: Trace
+2026-03-24T10:50:27.384Z LH:status Getting artifact: Accessibility
+2026-03-24T10:50:27.568Z LH:status Getting artifact: AnchorElements
+2026-03-24T10:50:27.697Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.698Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.699Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.700Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.701Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.701Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.705Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.706Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.707Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.710Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.711Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.713Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.715Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.717Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.722Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.723Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.724Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.725Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.726Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.727Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.728Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.729Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.729Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.731Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.732Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.733Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.734Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.735Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.736Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.737Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.738Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.740Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.740Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.741Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.742Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.743Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.744Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.745Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.746Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.747Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.747Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.748Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.749Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.749Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.750Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.750Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.751Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.752Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.753Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.754Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.755Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.756Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.757Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.758Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.758Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.759Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.760Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.761Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.762Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.763Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.764Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.765Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.766Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.767Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.768Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.768Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.769Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.770Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.771Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.771Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.772Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.773Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.776Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.777Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.778Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.779Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.779Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.780Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.781Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.781Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.782Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.783Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.784Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.784Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.785Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.786Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.787Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.788Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.788Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.789Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.790Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.791Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.791Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.792Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.793Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.793Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.794Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.795Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.796Z LH:method <= browser ERR:error 
+DOM.pushNodeByPathToFrontend 
+2026-03-24T10:50:27.884Z LH:status Getting artifact: ConsoleMessages
+2026-03-24T10:50:27.884Z LH:status Getting artifact: CSSUsage
+2026-03-24T10:50:27.977Z LH:status Getting artifact: Doctype
+2026-03-24T10:50:27.978Z LH:status Getting artifact: DOMStats
+2026-03-24T10:50:27.982Z LH:status Getting artifact: FontSize
+2026-03-24T10:50:28.009Z LH:status Getting artifact: Inputs
+2026-03-24T10:50:28.016Z LH:status Getting artifact: ImageElements
+2026-03-24T10:50:28.498Z LH:method <= browser ERR:error Runtime.evaluate 
+2026-03-24T10:50:28.763Z LH:method <= browser ERR:error Runtime.evaluate 
+2026-03-24T10:50:29.028Z LH:method <= browser ERR:error Runtime.evaluate 
+2026-03-24T10:50:29.293Z LH:method <= browser ERR:error Runtime.evaluate 
+2026-03-24T10:50:29.542Z LH:method <= browser ERR:error Runtime.evaluate 
+2026-03-24T10:50:29.807Z LH:method <= browser ERR:error Runtime.evaluate 
+2026-03-24T10:50:30.071Z LH:method <= browser ERR:error Runtime.evaluate 
+2026-03-24T10:50:30.335Z LH:method <= browser ERR:error Runtime.evaluate 
+2026-03-24T10:50:30.597Z LH:method <= browser ERR:error Runtime.evaluate 
+2026-03-24T10:50:30.857Z LH:method <= browser ERR:error Runtime.evaluate 
+2026-03-24T10:50:31.120Z LH:method <= browser ERR:error Runtime.evaluate 
+2026-03-24T10:50:31.364Z LH:method <= browser ERR:error Runtime.evaluate 
+2026-03-24T10:50:31.626Z LH:method <= browser ERR:error Runtime.evaluate 
+2026-03-24T10:50:31.888Z LH:method <= browser ERR:error Runtime.evaluate 
+2026-03-24T10:50:32.151Z LH:method <= browser ERR:error Runtime.evaluate 
+2026-03-24T10:50:32.369Z LH:status Getting artifact: InspectorIssues
+2026-03-24T10:50:32.369Z LH:status Getting artifact: JsUsage
+2026-03-24T10:50:32.369Z LH:status Getting artifact: LinkElements
+2026-03-24T10:50:32.374Z LH:status Getting artifact: MainDocumentContent
+2026-03-24T10:50:32.378Z LH:status Getting artifact: MetaElements
+2026-03-24T10:50:32.381Z LH:status Getting artifact: NetworkUserAgent
+2026-03-24T10:50:32.381Z LH:status Getting artifact: OptimizedImages
+2026-03-24T10:50:32.406Z LH:method <= browser ERR:error Runtime.evaluate 
+2026-03-24T10:50:32.545Z LH:status Getting artifact: ResponseCompression
+2026-03-24T10:50:32.558Z LH:status Getting artifact: RobotsTxt
+2026-03-24T10:50:32.935Z LH:status Getting artifact: Scripts
+2026-03-24T10:50:32.936Z LH:status Getting artifact: SourceMaps
+2026-03-24T10:50:34.445Z LH:status Getting artifact: Stacks
+2026-03-24T10:50:34.445Z LH:status Collect stacks
+2026-03-24T10:50:34.459Z LH:status Getting artifact: Stylesheets
+2026-03-24T10:50:34.481Z LH:status Getting artifact: TraceElements
+2026-03-24T10:50:34.516Z LH:status Trace Engine total
+2026-03-24T10:50:34.516Z LH:status Trace Engine parse
+2026-03-24T10:50:34.517Z LH:status Trace Engine parse:handleEvent
+2026-03-24T10:50:34.636Z LH:status Trace Engine parse:Meta:finalize
+2026-03-24T10:50:34.644Z LH:status Trace Engine parse:AnimationFrames:finalize
+2026-03-24T10:50:34.659Z LH:status Trace Engine parse:Animations:finalize
+2026-03-24T10:50:34.675Z LH:status Trace Engine parse:Samples:finalize
+2026-03-24T10:50:34.690Z LH:status Trace Engine parse:AuctionWorklets:finalize
+2026-03-24T10:50:34.707Z LH:status Trace Engine parse:NetworkRequests:finalize
+2026-03-24T10:50:34.727Z LH:status Trace Engine parse:Renderer:finalize
+2026-03-24T10:50:34.750Z LH:status Trace Engine parse:Flows:finalize
+2026-03-24T10:50:34.755Z LH:status Trace Engine parse:AsyncJSCalls:finalize
+2026-03-24T10:50:34.769Z LH:status Trace Engine parse:DOMStats:finalize
+2026-03-24T10:50:34.784Z LH:status Trace Engine parse:UserTimings:finalize
+2026-03-24T10:50:34.800Z LH:status Trace Engine 
+parse:ExtensionTraceData:finalize
+2026-03-24T10:50:34.815Z LH:status Trace Engine parse:LayerTree:finalize
+2026-03-24T10:50:34.831Z LH:status Trace Engine parse:Frames:finalize
+2026-03-24T10:50:34.851Z LH:status Trace Engine parse:GPU:finalize
+2026-03-24T10:50:34.860Z LH:status Trace Engine parse:ImagePainting:finalize
+2026-03-24T10:50:34.876Z LH:status Trace Engine parse:Initiators:finalize
+2026-03-24T10:50:34.891Z LH:status Trace Engine parse:Invalidations:finalize
+2026-03-24T10:50:34.906Z LH:status Trace Engine parse:PageLoadMetrics:finalize
+2026-03-24T10:50:34.922Z LH:status Trace Engine 
+parse:LargestImagePaint:finalize
+2026-03-24T10:50:34.937Z LH:status Trace Engine parse:LargestTextPaint:finalize
+2026-03-24T10:50:34.952Z LH:status Trace Engine parse:Screenshots:finalize
+2026-03-24T10:50:34.969Z LH:status Trace Engine parse:LayoutShifts:finalize
+2026-03-24T10:50:34.985Z LH:status Trace Engine parse:Memory:finalize
+2026-03-24T10:50:34.999Z LH:status Trace Engine parse:PageFrames:finalize
+2026-03-24T10:50:35.014Z LH:status Trace Engine parse:Scripts:finalize
+2026-03-24T10:50:35.029Z LH:status Trace Engine parse:SelectorStats:finalize
+2026-03-24T10:50:35.044Z LH:status Trace Engine parse:UserInteractions:finalize
+2026-03-24T10:50:35.060Z LH:status Trace Engine parse:Workers:finalize
+2026-03-24T10:50:35.075Z LH:status Trace Engine parse:Warnings:finalize
+2026-03-24T10:50:35.091Z LH:status Trace Engine parse:clone
+2026-03-24T10:50:35.093Z LH:status Trace Engine insights
+2026-03-24T10:50:35.094Z LH:status Trace Engine insights:CLSCulprits
+2026-03-24T10:50:35.094Z LH:status Trace Engine insights:Cache
+2026-03-24T10:50:35.094Z LH:status Trace Engine insights:DOMSize
+2026-03-24T10:50:35.095Z LH:status Trace Engine insights:DocumentLatency
+2026-03-24T10:50:35.095Z LH:status Trace Engine insights:DuplicatedJavaScript
+2026-03-24T10:50:35.096Z LH:status Trace Engine insights:FontDisplay
+2026-03-24T10:50:35.096Z LH:status Trace Engine insights:ForcedReflow
+2026-03-24T10:50:35.097Z LH:status Trace Engine insights:INPBreakdown
+2026-03-24T10:50:35.097Z LH:status Trace Engine insights:ImageDelivery
+2026-03-24T10:50:35.097Z LH:status Trace Engine insights:LCPBreakdown
+2026-03-24T10:50:35.098Z LH:status Trace Engine insights:LCPDiscovery
+2026-03-24T10:50:35.098Z LH:status Trace Engine insights:LegacyJavaScript
+2026-03-24T10:50:35.098Z LH:status Trace Engine insights:ModernHTTP
+2026-03-24T10:50:35.098Z LH:status Trace Engine insights:NetworkDependencyTree
+2026-03-24T10:50:35.098Z LH:status Trace Engine insights:RenderBlocking
+2026-03-24T10:50:35.098Z LH:status Trace Engine insights:SlowCSSSelector
+2026-03-24T10:50:35.099Z LH:status Trace Engine insights:ThirdParties
+2026-03-24T10:50:35.100Z LH:status Trace Engine insights:Viewport
+2026-03-24T10:50:35.100Z LH:status Trace Engine insights:createLanternContext
+2026-03-24T10:50:35.130Z LH:status Trace Engine insights:CLSCulprits
+2026-03-24T10:50:35.131Z LH:status Trace Engine insights:Cache
+2026-03-24T10:50:35.134Z LH:status Trace Engine insights:DOMSize
+2026-03-24T10:50:35.134Z LH:status Trace Engine insights:DocumentLatency
+2026-03-24T10:50:35.134Z LH:status Trace Engine insights:DuplicatedJavaScript
+2026-03-24T10:50:35.145Z LH:status Trace Engine insights:FontDisplay
+2026-03-24T10:50:35.145Z LH:status Trace Engine insights:ForcedReflow
+2026-03-24T10:50:35.145Z LH:status Trace Engine insights:INPBreakdown
+2026-03-24T10:50:35.145Z LH:status Trace Engine insights:ImageDelivery
+2026-03-24T10:50:35.147Z LH:status Trace Engine insights:LCPBreakdown
+2026-03-24T10:50:35.147Z LH:status Trace Engine insights:LCPDiscovery
+2026-03-24T10:50:35.147Z LH:status Trace Engine insights:LegacyJavaScript
+2026-03-24T10:50:35.238Z LH:status Trace Engine insights:ModernHTTP
+2026-03-24T10:50:35.240Z LH:status Trace Engine insights:NetworkDependencyTree
+2026-03-24T10:50:35.242Z LH:status Trace Engine insights:RenderBlocking
+2026-03-24T10:50:35.243Z LH:status Trace Engine insights:SlowCSSSelector
+2026-03-24T10:50:35.243Z LH:status Trace Engine insights:ThirdParties
+2026-03-24T10:50:35.258Z LH:status Trace Engine insights:Viewport
+2026-03-24T10:50:35.316Z LH:status Getting artifact: ViewportDimensions
+2026-03-24T10:50:35.317Z LH:status Getting artifact: FullPageScreenshot
+2026-03-24T10:50:36.429Z LH:status Getting artifact: BFCacheFailures
+2026-03-24T10:50:36.718Z LH:status Analyzing and running audits...
+2026-03-24T10:50:36.719Z LH:status Auditing: Uses HTTPS
+2026-03-24T10:50:36.720Z LH:status Auditing: Redirects HTTP traffic to HTTPS
+2026-03-24T10:50:36.721Z LH:status Auditing: Has a `<meta name="viewport">` 
+tag with `width` or `initial-scale`
+2026-03-24T10:50:36.722Z LH:status Auditing: First Contentful Paint
+2026-03-24T10:50:36.730Z LH:status Auditing: Largest Contentful Paint
+2026-03-24T10:50:36.734Z LH:status Auditing: First Meaningful Paint
+2026-03-24T10:50:36.734Z LH:status Auditing: Speed Index
+2026-03-24T10:50:36.930Z LH:status Auditing: Screenshot Thumbnails
+2026-03-24T10:50:36.931Z LH:status Auditing: Final Screenshot
+2026-03-24T10:50:36.932Z LH:status Auditing: Total Blocking Time
+2026-03-24T10:50:36.937Z LH:status Auditing: Max Potential First Input Delay
+2026-03-24T10:50:36.941Z LH:status Auditing: Cumulative Layout Shift
+2026-03-24T10:50:36.942Z LH:status Auditing: No browser errors logged to the 
+console
+2026-03-24T10:50:36.954Z LH:status Auditing: Initial server response time was 
+short
+2026-03-24T10:50:36.955Z LH:status Auditing: Time to Interactive
+2026-03-24T10:50:36.956Z LH:status Auditing: User Timing marks and measures
+2026-03-24T10:50:36.960Z LH:status Auditing: Avoid chaining critical requests
+2026-03-24T10:50:36.962Z LH:status Auditing: Avoid multiple page redirects
+2026-03-24T10:50:36.964Z LH:status Auditing: Displays images with correct 
+aspect ratio
+2026-03-24T10:50:36.965Z LH:status Auditing: Serves images with appropriate 
+resolution
+2026-03-24T10:50:36.967Z LH:status Auditing: Avoids deprecated APIs
+2026-03-24T10:50:36.968Z LH:status Auditing: Avoids third-party cookies
+2026-03-24T10:50:36.969Z LH:status Auditing: Minimizes main-thread work
+2026-03-24T10:50:36.982Z LH:status Auditing: JavaScript execution time
+2026-03-24T10:50:36.992Z LH:status Auditing: Preconnect to required origins
+2026-03-24T10:50:36.993Z LH:status Auditing: All text remains visible during 
+webfont loads
+2026-03-24T10:50:36.999Z LH:status Auditing: Diagnostics
+2026-03-24T10:50:37.000Z LH:status Auditing: Network Requests
+2026-03-24T10:50:37.002Z LH:status Auditing: Network Round Trip Times
+2026-03-24T10:50:37.004Z LH:status Auditing: Server Backend Latencies
+2026-03-24T10:50:37.005Z LH:status Auditing: Tasks
+2026-03-24T10:50:37.005Z LH:status Auditing: Metrics
+2026-03-24T10:50:37.007Z LH:status Auditing: Resources Summary
+2026-03-24T10:50:37.009Z LH:status Auditing: Minimize third-party usage
+2026-03-24T10:50:37.011Z LH:status Auditing: Lazy load third-party resources 
+with facades
+2026-03-24T10:50:37.013Z LH:status Auditing: Largest Contentful Paint element
+2026-03-24T10:50:37.014Z LH:status Auditing: Largest Contentful Paint image 
+was not lazily loaded
+2026-03-24T10:50:37.015Z LH:status Auditing: Avoid large layout shifts
+2026-03-24T10:50:37.017Z LH:status Auditing: Avoid long main-thread tasks
+2026-03-24T10:50:37.020Z LH:status Auditing: Avoid non-composited animations
+2026-03-24T10:50:37.021Z LH:status Auditing: Image elements have explicit 
+`width` and `height`
+2026-03-24T10:50:37.022Z LH:status Auditing: Page has valid source maps
+2026-03-24T10:50:37.023Z LH:status Auditing: Preload Largest Contentful Paint 
+image
+2026-03-24T10:50:37.025Z LH:status Auditing: Ensure CSP is effective against 
+XSS attacks
+2026-03-24T10:50:37.025Z LH:status Auditing: Use a strong HSTS policy
+2026-03-24T10:50:37.026Z LH:status Auditing: Ensure proper origin isolation 
+with COOP
+2026-03-24T10:50:37.027Z LH:status Auditing: Mitigate clickjacking with XFO or 
+CSP
+2026-03-24T10:50:37.028Z LH:status Auditing: Mitigate DOM-based XSS with 
+Trusted Types
+2026-03-24T10:50:37.029Z LH:status Auditing: Script Treemap Data
+2026-03-24T10:50:37.053Z LH:status Auditing: `[accesskey]` values are unique
+2026-03-24T10:50:37.054Z LH:status Auditing: `[aria-*]` attributes match their 
+roles
+2026-03-24T10:50:37.059Z LH:status Auditing: Uses ARIA roles only on 
+compatible elements
+2026-03-24T10:50:37.061Z LH:status Auditing: `button`, `link`, and `menuitem` 
+elements have accessible names
+2026-03-24T10:50:37.063Z LH:status Auditing: ARIA attributes are used as 
+specified for the element's role
+2026-03-24T10:50:37.065Z LH:status Auditing: Deprecated ARIA roles were not 
+used
+2026-03-24T10:50:37.068Z LH:status Auditing: Elements with `role="dialog"` or 
+`role="alertdialog"` have accessible names.
+2026-03-24T10:50:37.068Z LH:status Auditing: `[aria-hidden="true"]` is not 
+present on the document `<body>`
+2026-03-24T10:50:37.070Z LH:status Auditing: `[aria-hidden="true"]` elements 
+do not contain focusable descendents
+2026-03-24T10:50:37.072Z LH:status Auditing: ARIA input fields have accessible 
+names
+2026-03-24T10:50:37.073Z LH:status Auditing: ARIA `meter` elements have 
+accessible names
+2026-03-24T10:50:37.074Z LH:status Auditing: ARIA `progressbar` elements have 
+accessible names
+2026-03-24T10:50:37.075Z LH:status Auditing: Elements use only permitted ARIA 
+attributes
+2026-03-24T10:50:37.076Z LH:status Auditing: `[role]`s have all required 
+`[aria-*]` attributes
+2026-03-24T10:50:37.079Z LH:status Auditing: Elements with an ARIA `[role]` 
+that require children to contain a specific `[role]` have all required 
+children.
+2026-03-24T10:50:37.080Z LH:status Auditing: `[role]`s are contained by their 
+required parent element
+2026-03-24T10:50:37.081Z LH:status Auditing: `[role]` values are valid
+2026-03-24T10:50:37.085Z LH:status Auditing: Elements with the `role=text` 
+attribute do not have focusable descendents.
+2026-03-24T10:50:37.086Z LH:status Auditing: ARIA toggle fields have 
+accessible names
+2026-03-24T10:50:37.087Z LH:status Auditing: ARIA `tooltip` elements have 
+accessible names
+2026-03-24T10:50:37.088Z LH:status Auditing: ARIA `treeitem` elements have 
+accessible names
+2026-03-24T10:50:37.088Z LH:status Auditing: `[aria-*]` attributes have valid 
+values
+2026-03-24T10:50:37.090Z LH:status Auditing: `[aria-*]` attributes are valid 
+and not misspelled
+2026-03-24T10:50:37.092Z LH:status Auditing: Buttons have an accessible name
+2026-03-24T10:50:37.094Z LH:status Auditing: The page contains a heading, skip 
+link, or landmark region
+2026-03-24T10:50:37.101Z LH:status Auditing: Background and foreground colors 
+have a sufficient contrast ratio
+2026-03-24T10:50:37.102Z LH:status Auditing: `<dl>`'s contain only 
+properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` 
+elements.
+2026-03-24T10:50:37.103Z LH:status Auditing: Definition list items are wrapped 
+in `<dl>` elements
+2026-03-24T10:50:37.104Z LH:status Auditing: Document has a `<title>` element
+2026-03-24T10:50:37.106Z LH:status Auditing: ARIA IDs are unique
+2026-03-24T10:50:37.107Z LH:status Auditing: All heading elements contain 
+content.
+2026-03-24T10:50:37.109Z LH:status Auditing: No form fields have multiple 
+labels
+2026-03-24T10:50:37.110Z LH:status Auditing: `<frame>` or `<iframe>` elements 
+have a title
+2026-03-24T10:50:37.111Z LH:status Auditing: Heading elements appear in a 
+sequentially-descending order
+2026-03-24T10:50:37.114Z LH:status Auditing: `<html>` element has a `[lang]` 
+attribute
+2026-03-24T10:50:37.116Z LH:status Auditing: `<html>` element has a valid 
+value for its `[lang]` attribute
+2026-03-24T10:50:37.120Z LH:status Auditing: `<html>` element has an 
+`[xml:lang]` attribute with the same base language as the `[lang]` attribute.
+2026-03-24T10:50:37.121Z LH:status Auditing: Identical links have the same 
+purpose.
+2026-03-24T10:50:37.123Z LH:status Auditing: Image elements have `[alt]` 
+attributes
+2026-03-24T10:50:37.125Z LH:status Auditing: Image elements do not have 
+`[alt]` attributes that are redundant text.
+2026-03-24T10:50:37.127Z LH:status Auditing: Input buttons have discernible 
+text.
+2026-03-24T10:50:37.128Z LH:status Auditing: `<input type="image">` elements 
+have `[alt]` text
+2026-03-24T10:50:37.130Z LH:status Auditing: Elements with visible text labels 
+have matching accessible names.
+2026-03-24T10:50:37.131Z LH:status Auditing: Form elements have associated 
+labels
+2026-03-24T10:50:37.132Z LH:status Auditing: Document has a main landmark.
+2026-03-24T10:50:37.136Z LH:status Auditing: Links have a discernible name
+2026-03-24T10:50:37.138Z LH:status Auditing: Links are distinguishable without 
+relying on color.
+2026-03-24T10:50:37.140Z LH:status Auditing: Lists contain only `<li>` 
+elements and script supporting elements (`<script>` and `<template>`).
+2026-03-24T10:50:37.142Z LH:status Auditing: List items (`<li>`) are contained 
+within `<ul>`, `<ol>` or `<menu>` parent elements
+2026-03-24T10:50:37.144Z LH:status Auditing: The document does not use `<meta 
+http-equiv="refresh">`
+2026-03-24T10:50:37.146Z LH:status Auditing: `[user-scalable="no"]` is not 
+used in the `<meta name="viewport">` element and the `[maximum-scale]` 
+attribute is not less than 5.
+2026-03-24T10:50:37.148Z LH:status Auditing: `<object>` elements have 
+alternate text
+2026-03-24T10:50:37.149Z LH:status Auditing: Select elements have associated 
+label elements.
+2026-03-24T10:50:37.150Z LH:status Auditing: Skip links are focusable.
+2026-03-24T10:50:37.155Z LH:status Auditing: No element has a `[tabindex]` 
+value greater than 0
+2026-03-24T10:50:37.156Z LH:status Auditing: Tables have different content in 
+the summary attribute and `<caption>`.
+2026-03-24T10:50:37.158Z LH:status Auditing: Tables use `<caption>` instead of 
+cells with the `[colspan]` attribute to indicate a caption.
+2026-03-24T10:50:37.160Z LH:status Auditing: Touch targets have sufficient 
+size and spacing.
+2026-03-24T10:50:37.161Z LH:status Auditing: `<td>` elements in a large 
+`<table>` have one or more table headers.
+2026-03-24T10:50:37.163Z LH:status Auditing: Cells in a `<table>` element that 
+use the `[headers]` attribute refer to table cells within the same table.
+2026-03-24T10:50:37.165Z LH:status Auditing: `<th>` elements and elements with 
+`[role="columnheader"/"rowheader"]` have data cells they describe.
+2026-03-24T10:50:37.166Z LH:status Auditing: `[lang]` attributes have a valid 
+value
+2026-03-24T10:50:37.168Z LH:status Auditing: `<video>` elements contain a 
+`<track>` element with `[kind="captions"]`
+2026-03-24T10:50:37.172Z LH:status Auditing: Custom controls have associated 
+labels
+2026-03-24T10:50:37.172Z LH:status Auditing: Custom controls have ARIA roles
+2026-03-24T10:50:37.172Z LH:status Auditing: User focus is not accidentally 
+trapped in a region
+2026-03-24T10:50:37.172Z LH:status Auditing: Interactive controls are keyboard 
+focusable
+2026-03-24T10:50:37.172Z LH:status Auditing: Interactive elements indicate 
+their purpose and state
+2026-03-24T10:50:37.172Z LH:status Auditing: The page has a logical tab order
+2026-03-24T10:50:37.172Z LH:status Auditing: The user's focus is directed to 
+new content added to the page
+2026-03-24T10:50:37.172Z LH:status Auditing: Offscreen content is hidden from 
+assistive technology
+2026-03-24T10:50:37.172Z LH:status Auditing: HTML5 landmark elements are used 
+to improve navigation
+2026-03-24T10:50:37.172Z LH:status Auditing: Visual order on the page follows 
+DOM order
+2026-03-24T10:50:37.172Z LH:status Auditing: Uses efficient cache policy on 
+static assets
+2026-03-24T10:50:37.174Z LH:status Auditing: Avoids enormous network payloads
+2026-03-24T10:50:37.175Z LH:status Auditing: Defer offscreen images
+2026-03-24T10:50:37.178Z LH:status Auditing: Eliminate render-blocking 
+resources
+2026-03-24T10:50:37.182Z LH:status Auditing: Minify CSS
+2026-03-24T10:50:37.206Z LH:status Auditing: Minify JavaScript
+2026-03-24T10:50:37.258Z LH:status Auditing: Reduce unused CSS
+2026-03-24T10:50:37.260Z LH:status Auditing: Reduce unused JavaScript
+2026-03-24T10:50:37.264Z LH:status Auditing: Serve images in next-gen formats
+2026-03-24T10:50:37.267Z LH:status Auditing: Efficiently encode images
+2026-03-24T10:50:37.269Z LH:status Auditing: Enable text compression
+2026-03-24T10:50:37.270Z LH:status Auditing: Properly size images
+2026-03-24T10:50:37.272Z LH:status Auditing: Use video formats for animated 
+content
+2026-03-24T10:50:37.274Z LH:status Auditing: Remove duplicate modules in 
+JavaScript bundles
+2026-03-24T10:50:37.276Z LH:status Auditing: Avoid serving legacy JavaScript 
+to modern browsers
+2026-03-24T10:50:37.361Z LH:status Auditing: Page has the HTML doctype
+2026-03-24T10:50:37.361Z LH:status Auditing: Properly defines charset
+2026-03-24T10:50:37.362Z LH:status Auditing: Avoids an excessive DOM size
+2026-03-24T10:50:37.364Z LH:status Auditing: Avoids requesting the geolocation 
+permission on page load
+2026-03-24T10:50:37.365Z LH:status Auditing: No issues in the `Issues` panel 
+in Chrome Devtools
+2026-03-24T10:50:37.365Z LH:status Auditing: Avoids `document.write()`
+2026-03-24T10:50:37.366Z LH:status Auditing: Detected JavaScript libraries
+2026-03-24T10:50:37.367Z LH:status Auditing: Avoids requesting the 
+notification permission on page load
+2026-03-24T10:50:37.368Z LH:status Auditing: Allows users to paste into input 
+fields
+2026-03-24T10:50:37.368Z LH:status Auditing: Use HTTP/2
+2026-03-24T10:50:37.371Z LH:status Auditing: Uses passive listeners to improve 
+scrolling performance
+2026-03-24T10:50:37.371Z LH:status Auditing: Document has a meta description
+2026-03-24T10:50:37.372Z LH:status Auditing: Page has successful HTTP status 
+code
+2026-03-24T10:50:37.373Z LH:status Auditing: Document uses legible font sizes
+2026-03-24T10:50:37.374Z LH:status Auditing: Links have descriptive text
+2026-03-24T10:50:37.375Z LH:status Auditing: Links are crawlable
+2026-03-24T10:50:37.376Z LH:status Auditing: Page isnΓÇÖt blocked from indexing
+2026-03-24T10:50:37.378Z LH:status Auditing: robots.txt is valid
+2026-03-24T10:50:37.378Z LH:status Auditing: Document has a valid `hreflang`
+2026-03-24T10:50:37.379Z LH:status Auditing: Document has a valid 
+`rel=canonical`
+2026-03-24T10:50:37.380Z LH:status Auditing: Structured data is valid
+2026-03-24T10:50:37.381Z LH:status Auditing: Page didn't prevent back/forward 
+cache restoration
+2026-03-24T10:50:37.381Z LH:status Auditing: Use efficient cache lifetimes
+2026-03-24T10:50:37.383Z LH:status Auditing: Layout shift culprits
+2026-03-24T10:50:37.384Z LH:status Auditing: Document request latency
+2026-03-24T10:50:37.385Z LH:status Auditing: Optimize DOM size
+2026-03-24T10:50:37.386Z LH:status Auditing: Duplicated JavaScript
+2026-03-24T10:50:37.386Z LH:status Auditing: Font display
+2026-03-24T10:50:37.387Z LH:status Auditing: Forced reflow
+2026-03-24T10:50:37.390Z LH:status Auditing: Improve image delivery
+2026-03-24T10:50:37.392Z LH:status Auditing: INP breakdown
+2026-03-24T10:50:37.392Z LH:status Auditing: LCP breakdown
+2026-03-24T10:50:37.393Z LH:status Auditing: LCP request discovery
+2026-03-24T10:50:37.394Z LH:status Auditing: Legacy JavaScript
+2026-03-24T10:50:37.397Z LH:status Auditing: Modern HTTP
+2026-03-24T10:50:37.399Z LH:status Auditing: Network dependency tree
+2026-03-24T10:50:37.401Z LH:status Auditing: Render blocking requests
+2026-03-24T10:50:37.403Z LH:status Auditing: 3rd parties
+2026-03-24T10:50:37.420Z LH:status Auditing: Optimize viewport for mobile
+2026-03-24T10:50:37.421Z LH:status Generating results...
+2026-03-24T10:50:37.455Z LH:Printer json output written to ./lh-report.json
+2026-03-24T10:50:37.455Z LH:ChromeLauncher Killing Chrome instance 23876
+..Fafter scenario...
+.
+============================================================
+END: Audit homepage performance (27217ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Run JMeter load test for Amazon search
+============================================================
+..before scenario - creating context and page...
+.≡ƒÅü Running JMeter test: amazon_search_test.jmx
+'jmeter' is not recognized as an internal or external command,
+operable program or batch file.
+F-after scenario...
+.
+============================================================
+END: Run JMeter load test for Amazon search (606ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Inventory filters work correctly - Fixed
+============================================================
+..before scenario - creating context and page...
+..F---after scenario...
+.
+============================================================
+END: Inventory filters work correctly - Fixed (10748ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Filter by valid Honda make
+============================================================
+..before scenario - creating context and page...
+....after scenario...
+.
+============================================================
+END: Filter by valid Honda make (16705ms)
+Status: PASSED
+============================================================
+
+F
+============================================================
+START: Filter by Yamaha make
+============================================================
+..before scenario - creating context and page...
+F---after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Filter by Yamaha make (326ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Search returns results and Sort By changes order
+============================================================
+..before scenario - creating context and page...
+......after scenario...
+.
+============================================================
+END: Search returns results and Sort By changes order (33708ms)
+Status: PASSED
+============================================================
+
+F
+============================================================
+START: Filter dropdowns show defaults and can be changed
+============================================================
+..before scenario - creating context and page...
+.......after scenario...
+.
+============================================================
+END: Filter dropdowns show defaults and can be changed (32568ms)
+Status: PASSED
+============================================================
+
+F
+============================================================
+START: Search returns results and Sort By changes order
+============================================================
+..before scenario - creating context and page...
+......after scenario...
+.
+============================================================
+END: Search returns results and Sort By changes order (54808ms)
+Status: PASSED
+============================================================
+
+F
+============================================================
+START: Filter dropdowns show defaults and can be changed
+============================================================
+..before scenario - creating context and page...
+......Fafter scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Filter dropdowns show defaults and can be changed (33327ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Filter by Make
+============================================================
+..before scenario - creating context and page...
+F-----after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Filter by Make (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Length filter correctly applies to both Marine and RV inventory
+============================================================
+..before scenario - creating context and page...
+F-----UU-after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Length filter correctly applies to both Marine and RV inventory (3ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Marine inventory is filtered using LOA length
+============================================================
+..before scenario - creating context and page...
+F------after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Marine inventory is filtered using LOA length (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: RV inventory is filtered using length field
+============================================================
+..before scenario - creating context and page...
+F-----after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: RV inventory is filtered using length field (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Length slider reflects correct inventory range
+============================================================
+..before scenario - creating context and page...
+F------after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Length slider reflects correct inventory range (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Each vertical uses correct length attribute independently
+============================================================
+..before scenario - creating context and page...
+F--------after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Each vertical uses correct length attribute independently (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Validate inventory filters for dealer sites
+============================================================
+..before scenario - creating context and page...
+F-------after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Validate inventory filters for dealer sites (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Validate inventory filters for dealer sites
+============================================================
+..before scenario - creating context and page...
+F-------after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Validate inventory filters for dealer sites (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Length filter correctly applies to both Marine and RV inventory
+============================================================
+..before scenario - creating context and page...
+F-----UU-after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Length filter correctly applies to both Marine and RV inventory (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Marine inventory is filtered using LOA length
+============================================================
+..before scenario - creating context and page...
+F------after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Marine inventory is filtered using LOA length (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: RV inventory is filtered using length field
+============================================================
+..before scenario - creating context and page...
+F-----after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: RV inventory is filtered using length field (3ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Length slider reflects correct inventory range
+============================================================
+..before scenario - creating context and page...
+F------after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Length slider reflects correct inventory range (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Each vertical uses correct length attribute independently
+============================================================
+..before scenario - creating context and page...
+F--------after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Each vertical uses correct length attribute independently (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Admin can log in with valid credentials
+============================================================
+..before scenario - creating context and page...
+F---after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Admin can log in with valid credentials (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can view part request page with all form elements
+============================================================
+..before scenario - creating context and page...
+F-----after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can view part request page with all form elements (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can fill in basic part request information
+============================================================
+..before scenario - creating context and page...
+F----after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can fill in basic part request information (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can add multiple parts to a request
+============================================================
+..before scenario - creating context and page...
+F-----after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can add multiple parts to a request (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can select dealership location
+============================================================
+..before scenario - creating context and page...
+F-----after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can select dealership location (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can submit a part request
+============================================================
+..before scenario - creating context and page...
+F-----after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can submit a part request (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User cannot submit empty part request
+============================================================
+..before scenario - creating context and page...
+F-----after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User cannot submit empty part request (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User cannot enter invalid quantity
+============================================================
+..before scenario - creating context and page...
+F----after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User cannot enter invalid quantity (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can clear part request form
+============================================================
+..before scenario - creating context and page...
+F-----after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can clear part request form (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can view part request history
+============================================================
+..before scenario - creating context and page...
+F-----after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can view part request history (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can edit an existing part request
+============================================================
+..before scenario - creating context and page...
+F-------after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can edit an existing part request (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Inventory page loads successfully with correct title and meta
+============================================================
+..before scenario - creating context and page...
+FA---after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Inventory page loads successfully with correct title and meta (7ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Core inventory page sections are visible on load
+============================================================
+..before scenario - creating context and page...
+F-------after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Core inventory page sections are visible on load (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Inventory page displays the correct condition pre-selected
+============================================================
+..before scenario - creating context and page...
+F--after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Inventory page displays the correct condition pre-selected (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Inventory page hero or breadcrumb displays correct dealer context
+============================================================
+..before scenario - creating context and page...
+F--after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Inventory page hero or breadcrumb displays correct dealer context (1ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Inventory listings are displayed on page load
+============================================================
+..before scenario - creating context and page...
+F----after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Inventory listings are displayed on page load (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Vehicle card displays all required information elements
+============================================================
+..before scenario - creating context and page...
+F--------after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Vehicle card displays all required information elements (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Vehicle card primary CTA navigates to Vehicle Detail Page
+============================================================
+..before scenario - creating context and page...
+F--U-after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Vehicle card primary CTA navigates to Vehicle Detail Page (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Vehicle card image is clickable and navigates to VDP
+============================================================
+..before scenario - creating context and page...
+F--after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Vehicle card image is clickable and navigates to VDP (3ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Vehicle card title link is clickable and navigates to VDP
+============================================================
+..before scenario - creating context and page...
+F--after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Vehicle card title link is clickable and navigates to VDP (1ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: No broken images appear on vehicle cards
+============================================================
+..before scenario - creating context and page...
+F--after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: No broken images appear on vehicle cards (1ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: New condition filter is active by default from URL parameter
+============================================================
+..before scenario - creating context and page...
+F---after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: New condition filter is active by default from URL parameter (1ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can switch condition filter to Used
+============================================================
+..before scenario - creating context and page...
+F----after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can switch condition filter to Used (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Clearing the condition filter returns all inventory
+============================================================
+..before scenario - creating context and page...
+F--Uafter scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Clearing the condition filter returns all inventory (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Harley-Davidson make is pre-applied from the inventory page context
+============================================================
+..before scenario - creating context and page...
+F--after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Harley-Davidson make is pre-applied from the inventory page context (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can filter inventory by a specific model
+============================================================
+..before scenario - creating context and page...
+F-U-Uafter scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can filter inventory by a specific model (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can filter inventory by motorcycle category
+============================================================
+..before scenario - creating context and page...
+F---after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can filter inventory by motorcycle category (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Model filter dropdown shows only models relevant to Harley-Davidson
+============================================================
+..before scenario - creating context and page...
+F---after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Model filter dropdown shows only models relevant to Harley-Davidson (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can set a minimum price filter
+============================================================
+..before scenario - creating context and page...
+F-UUafter scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can set a minimum price filter (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can set a maximum price filter
+============================================================
+..before scenario - creating context and page...
+F-UUafter scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can set a maximum price filter (1ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can set a price range using both min and max filters
+============================================================
+..before scenario - creating context and page...
+F--Uafter scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can set a price range using both min and max filters (1ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Entering an invalid price range shows a validation message
+============================================================
+..before scenario - creating context and page...
+F---after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Entering an invalid price range shows a validation message (1ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can filter inventory by a specific year
+============================================================
+..before scenario - creating context and page...
+F-U-after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can filter inventory by a specific year (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can filter by a year range using min and max year selectors
+============================================================
+..before scenario - creating context and page...
+F---after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can filter by a year range using min and max year selectors (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can filter inventory by exterior color
+============================================================
+..before scenario - creating context and page...
+F--Uafter scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can filter inventory by exterior color (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can filter inventory by engine displacement or type
+============================================================
+..before scenario - creating context and page...
+F--after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can filter inventory by engine displacement or type (1ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Active filters are displayed as removable chips
+============================================================
+..before scenario - creating context and page...
+F---Uafter scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Active filters are displayed as removable chips (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can remove an individual active filter chip
+============================================================
+..before scenario - creating context and page...
+F-----after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can remove an individual active filter chip (1ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: "Clear All Filters" removes all active filters
+============================================================
+..before scenario - creating context and page...
+F-----after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: "Clear All Filters" removes all active filters (1ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Default sort order is Make ascending as set by URL parameter
+============================================================
+..before scenario - creating context and page...
+F---after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Default sort order is Make ascending as set by URL parameter (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can sort inventory by Price ΓÇô Low to High
+============================================================
+..before scenario - creating context and page...
+F-U--after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can sort inventory by Price ΓÇô Low to High (1ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can sort inventory by Price ΓÇô High to Low
+============================================================
+..before scenario - creating context and page...
+F-U-after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can sort inventory by Price ΓÇô High to Low (1ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can sort inventory by Year ΓÇô Newest First
+============================================================
+..before scenario - creating context and page...
+F-U-after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can sort inventory by Year ΓÇô Newest First (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can sort inventory by Year ΓÇô Oldest First
+============================================================
+..before scenario - creating context and page...
+F--after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can sort inventory by Year ΓÇô Oldest First (3ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can sort inventory by Make A to Z
+============================================================
+..before scenario - creating context and page...
+F---after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can sort inventory by Make A to Z (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can sort inventory by Make Z to A
+============================================================
+..before scenario - creating context and page...
+F---after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can sort inventory by Make Z to A (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Pagination is displayed when results exceed one page
+============================================================
+..before scenario - creating context and page...
+F-U--after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Pagination is displayed when results exceed one page (1ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can navigate to the next page of results
+============================================================
+..before scenario - creating context and page...
+F------after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can navigate to the next page of results (1ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: User can navigate back to the previous page
+============================================================
+..before scenario - creating context and page...
+F---Uafter scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: User can navigate back to the previous page (1ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: "Previous" button is disabled or hidden on the first page
+============================================================
+..before scenario - creating context and page...
+F--after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: "Previous" button is disabled or hidden on the first page (1ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: "Next" button is disabled or hidden on the last page
+============================================================
+..before scenario - creating context and page...
+F--after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: "Next" button is disabled or hidden on the last page (1ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Pagination resets to page 1 when a new filter is applied
+============================================================
+..before scenario - creating context and page...
+F----after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Pagination resets to page 1 when a new filter is applied (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Results per page selector updates the number of visible cards
+============================================================
+..before scenario - creating context and page...
+F---after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Results per page selector updates the number of visible cards (2ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Validate all configured sites
+============================================================
+..before scenario - creating context and page...
+F---after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Validate all configured sites (1ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Search for an inventory item
+============================================================
+..before scenario - creating context and page...
+F-----after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Search for an inventory item (1ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Verify XInv Manager page header is displayed
+============================================================
+..before scenario - creating context and page...
+F----after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Verify XInv Manager page header is displayed (1ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: Validate pagination on XInv Manager page
+============================================================
+..before scenario - creating context and page...
+F-----Uafter scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: Validate pagination on XInv Manager page (1ms)
+Status: FAILED
+============================================================
+
+F
+============================================================
+START: 436034 Inventory Manager | Select Existing Inventory | Filter By
+============================================================
+..before scenario - creating context and page...
+F--------------------UU----U-------after scenario...
+Screenshot first attempt failed: page.screenshot: Target page, context or 
+browser has been closed
+.
+============================================================
+END: 436034 Inventory Manager | Select Existing Inventory | Filter By (3ms)
+Status: FAILED
+============================================================
+
+Fafter all - closing browser...
+
+
+Failures:
+
+1) Scenario: Validate dealer data consistency between API1 and API2 # tests\features\APIFeature\A123Feed.feature:3
+   ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+   ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+   ΓêÜ Before # Setup\hooks.js:39
+   ├ù Given I fetch dealer data from API1 # tests\steps\api\compareDealerSteps.js:18
+       Error: API Helper not available
+           at fetchAPI1Data (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\api\compareDealerSteps.js:14:39)
+           at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\api\compareDealerSteps.js:19:20)
+   - And I fetch dealer data from API2 # tests\steps\api\compareDealerSteps.js:22
+   - When I compare the dealer data for dealer ID "12345" # tests\steps\api\compareDealerSteps.js:26
+   - Then the data should match across both APIs # tests\steps\api\compareDealerSteps.js:31
+   ΓêÜ After # Setup\hooks.js:48
+       Attachment (image/png)
+   ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+       TypeError: Cannot read properties of undefined (reading 'result')
+           at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+2) Scenario: Audit homepage performance # tests\features\performance\lighthouse.feature:5
+   ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+   ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+   ΓêÜ Before # Setup\hooks.js:39
+   ΓêÜ Given I run Lighthouse on "https://www.sargentsequipmentwi.com/" # tests\steps\performance\lighthouseSteps.js:5
+   ├ù Then I should get a performance score above 90 # tests\steps\performance\lighthouseSteps.js:9
+       Error: Performance score 61 is below expected 90
+           at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\performance\lighthouseSteps.js:13:11)
+   ΓêÜ After # Setup\hooks.js:48
+       Attachment (image/png)
+   ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+       TypeError: Cannot read properties of undefined (reading 'result')
+           at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+3) Scenario: Run JMeter load test for Amazon search # tests\features\performance\load_test.feature:3
+   ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+   ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+   ΓêÜ Before # Setup\hooks.js:39
+   ├ù Given I execute JMeter test "amazon_search_test.jmx" # file:\C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\performance\jmeter-performce.js:6
+       Error: Command failed: jmeter -n -t jmeter/amazon_search_test.jmx -l jmeter/results.jtl
+       'jmeter' is not recognized as an internal or external command,
+       operable program or batch file.
+
+           at genericNodeError (node:internal/errors:983:15)
+           at wrappedFn (node:internal/errors:537:14)
+           at checkExecSyncError (node:child_process:916:11)
+           at execSync (node:child_process:988:15)
+           at World.<anonymous> (file:///C:/Users/lokesh.sharma/playwright-js-E2E-Automation/tests/steps/performance/jmeter-performce.js:8:3)
+           at Object.run (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\node_modules\@cucumber\cucumber\lib\user_code_runner.js:24:27)
+           at Object.run (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:51:59)
+           at async TestCaseRunner.invokeStep (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:95:16)
+           at async TestCaseRunner.runStep (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:244:26)
+           at async C:\Users\lokesh.sharma\playwright-js-E2E-Automation\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:175:44
+   - Then I should see average response time under 2s # file:\C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\performance\jmeter-performce.js:11
+   ΓêÜ After # Setup\hooks.js:48
+       Attachment (image/png)
+   ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+       TypeError: Cannot read properties of undefined (reading 'result')
+           at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+4) Scenario: Inventory filters work correctly - Fixed # tests\features\UIFeature\inventory_filters_corrected.feature:4
+   ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+   ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+   ΓêÜ Before # Setup\hooks.js:39
+   ΓêÜ Given User opens "https://automationsandbox-v7.clients.dealerspike.net/default.asp?page=xAllInventory&pg=1" site in browser # tests\steps\ui\inventory_feature_steps.js:201
+   ├ù When I select category "Motorcycles" from categories filter # tests\steps\ui\inventory_filters_steps.js:419
+       Error: Could not select category 'Motorcycles'
+           at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\inventory_filters_steps.js:517:9)
+   - Then the results should be filtered by category "Motorcycles" # tests\steps\ui\inventory_filters_steps.js:635
+   - When I select make "Harley-Davidson" from makes filter # tests\steps\ui\inventory_filters_steps.js:520
+   - Then the results should be filtered by make "Harley-Davidson" # tests\steps\ui\inventory_filters_steps.js:566
+   ΓêÜ After # Setup\hooks.js:48
+       Attachment (image/png)
+   ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+       TypeError: Cannot read properties of undefined (reading 'result')
+           at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+5) Scenario: Filter by valid Honda make # tests\features\UIFeature\inventory_filters_corrected.feature:13
+   ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+   ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+   ΓêÜ Before # Setup\hooks.js:39
+   ΓêÜ Given User opens "https://automationsandbox-v7.clients.dealerspike.net/default.asp?page=xAllInventory&pg=1" site in browser # tests\steps\ui\inventory_feature_steps.js:201
+   ΓêÜ When I select make "Honda" from makes filter # tests\steps\ui\inventory_filters_steps.js:520
+   ΓêÜ Then the results should be filtered by make "Honda" # tests\steps\ui\inventory_filters_steps.js:566
+   ΓêÜ After # Setup\hooks.js:48
+   ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+       TypeError: Cannot read properties of undefined (reading 'result')
+           at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+6) Scenario: Filter by Yamaha make # tests\features\UIFeature\inventory_filters_corrected.feature:19
+   ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+   ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+   ├ù Before # Setup\hooks.js:39
+       locator.click: Target page, context or browser has been closed
+       Call log:
+       [2m  - waiting for locator('undefined').first()[22m
+
+           at PublicInventoryPage.selectMake (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Pages\PublicInventoryPage.js:307:13)
+           at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\inventory_filters_steps.js:526:48)
+   - Given User opens "https://automationsandbox-v7.clients.dealerspike.net/default.asp?page=xAllInventory&pg=1" site in browser # tests\steps\ui\inventory_feature_steps.js:201
+   - When I select make "Yamaha" from makes filter # tests\steps\ui\inventory_filters_steps.js:520
+   - Then the results should be filtered by make "Yamaha" # tests\steps\ui\inventory_filters_steps.js:566
+   ΓêÜ After # Setup\hooks.js:48
+   ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+       TypeError: Cannot read properties of undefined (reading 'result')
+           at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+7) Scenario: Search returns results and Sort By changes order # tests\features\UIFeature\inventory_filters.feature:6
+   ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+   ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+   ΓêÜ Before # Setup\hooks.js:39
+   ΓêÜ Given User opens "https://automationsandbox-v6.clients.dealerspike.net/for-sale--xAllInventory" site in browser # tests\steps\ui\inventory_feature_steps.js:201
+   ΓêÜ When I search the inventory for "BMW" # tests\steps\ui\inventory_filters_steps.js:76
+   ΓêÜ Then I should see at least one inventory result # tests\steps\ui\inventory_filters_steps.js:101
+   ΓêÜ When I sort results by "Price" # tests\steps\ui\inventory_filters_steps.js:119
+   ΓêÜ Then the visible results should be sorted by ascending price # tests\steps\ui\inventory_filters_steps.js:195
+   ΓêÜ After # Setup\hooks.js:48
+   ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+       TypeError: Cannot read properties of undefined (reading 'result')
+           at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+8) Scenario: Filter dropdowns show defaults and can be changed # tests\features\UIFeature\inventory_filters.feature:14
+   ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+   ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+   ΓêÜ Before # Setup\hooks.js:39
+   ΓêÜ Given User opens "https://automationsandbox-v6.clients.dealerspike.net/for-sale--xAllInventory" site in browser # tests\steps\ui\inventory_feature_steps.js:201
+   ΓêÜ Then the All categories filter should display "All Categories" # tests\steps\ui\inventory_filters_steps.js:328
+   ΓêÜ Then the All makes filter should display "All Makes" # tests\steps\ui\inventory_filters_steps.js:369
+   ΓêÜ Then the All years filter should display "All Years" # tests\steps\ui\inventory_filters_steps.js:402
+   ΓêÜ When I select category "Adventure" from categories filter # tests\steps\ui\inventory_filters_steps.js:419
+   ΓêÜ Then the results should be filtered by category "Adventure" # tests\steps\ui\inventory_filters_steps.js:635
+   ΓêÜ After # Setup\hooks.js:48
+   ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+       TypeError: Cannot read properties of undefined (reading 'result')
+           at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+9) Scenario: Search returns results and Sort By changes order # tests\features\UIFeature\inventory_filters.feature:24
+   ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+   ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+   ΓêÜ Before # Setup\hooks.js:39
+   ΓêÜ Given User opens "https://ridenow.qa.dsp.leadventure.dev/default.asp?page=xAllInventory&pg=1" site in browser # tests\steps\ui\inventory_feature_steps.js:201
+   ΓêÜ When I search the inventory for "Honda" # tests\steps\ui\inventory_filters_steps.js:76
+   ΓêÜ Then I should see at least one inventory result # tests\steps\ui\inventory_filters_steps.js:101
+   ΓêÜ When I sort results by "Price" # tests\steps\ui\inventory_filters_steps.js:119
+   ΓêÜ Then the visible results should be sorted by ascending price # tests\steps\ui\inventory_filters_steps.js:195
+   ΓêÜ After # Setup\hooks.js:48
+   ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+       TypeError: Cannot read properties of undefined (reading 'result')
+           at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+10) Scenario: Filter dropdowns show defaults and can be changed # tests\features\UIFeature\inventory_filters.feature:32
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ΓêÜ Before # Setup\hooks.js:39
+    ΓêÜ Given User opens "https://automationsandbox-v7.clients.dealerspike.net/default.asp?page=xAllInventory&pg=1" site in browser # tests\steps\ui\inventory_feature_steps.js:201
+    ΓêÜ Then the All categories filter should display "Vehicle Type" # tests\steps\ui\inventory_filters_steps.js:328
+    ΓêÜ Then the All makes filter should display "Make" # tests\steps\ui\inventory_filters_steps.js:369
+    ΓêÜ Then the All years filter should display "Year" # tests\steps\ui\inventory_filters_steps.js:402
+    ΓêÜ When I select category "Off-Road" from categories filter # tests\steps\ui\inventory_filters_steps.js:419
+    ├ù Then the results should be filtered by category "Off-Road" # tests\steps\ui\inventory_filters_steps.js:635
+        Error: No results appear to match category 'Off-Road'; debug saved to reports/debug-category-filter-no-match-2026-03-24T10-53-43-347Z.html/.png
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\inventory_filters_steps.js:689:9)
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+11) Scenario: Filter by Make # tests\features\UIFeature\inventory_filters.feature:41
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given User opens "https://automationsandbox-v7.clients.dealerspike.net/default.asp?page=xAllInventory&pg=1" site in browser # tests\steps\ui\inventory_feature_steps.js:201
+    - When I select make "Yamaha" from makes filter # tests\steps\ui\inventory_filters_steps.js:520
+    - And I select year "2025" from years filter # tests\steps\ui\inventory_filters_steps.js:540
+    - Then the results should be filtered by make "Yamaha" # tests\steps\ui\inventory_filters_steps.js:566
+    - And the results should be filtered by year "2025" # tests\steps\ui\inventory_filters_steps.js:613
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+12) Scenario: Length filter correctly applies to both Marine and RV inventory # tests\features\UIFeature\inventory_search.feature:12
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given the dealer site is configured with "dstMarine" and "dstRV" # tests\steps\ui\length_filter_accuracy_steps.js:8
+    - And the user is on the SRP page # tests\steps\ui\length_filter_accuracy_steps.js:15
+    - Given Marine units have valid "LOA length" values # tests\steps\ui\length_filter_accuracy_steps.js:29
+    - And RV units have valid "length" values # tests\steps\ui\length_filter_accuracy_steps.js:34
+    - When the user applies a length filter range "20 to 30" # tests\steps\ui\length_filter_accuracy_steps.js:39
+    ? Then Marine units with "LOA length" between "20 and 30" should be displayed
+        Undefined. Implement with the following snippet:
+
+          Then('Marine units with {string} between {string} should be displayed', function (string, string2) {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    ? And RV units with "length" between "20 and 30" should be displayed
+        Undefined. Implement with the following snippet:
+
+          Then('RV units with {string} between {string} should be displayed', function (string, string2) {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    - And no units outside the selected range should be shown # tests\steps\ui\length_filter_accuracy_steps.js:63
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+13) Scenario: Marine inventory is filtered using LOA length # tests\features\UIFeature\inventory_search.feature:21
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given the dealer site is configured with "dstMarine" and "dstRV" # tests\steps\ui\length_filter_accuracy_steps.js:8
+    - And the user is on the SRP page # tests\steps\ui\length_filter_accuracy_steps.js:15
+    - Given a Marine unit exists with stock number "28438" # tests\steps\ui\length_filter_accuracy_steps.js:69
+    - And the unit has "LOA length" of "25" # tests\steps\ui\length_filter_accuracy_steps.js:74
+    - When the user applies a length filter range "24 to 26" # tests\steps\ui\length_filter_accuracy_steps.js:39
+    - Then the Marine unit with stock number "28438" should be displayed # tests\steps\ui\length_filter_accuracy_steps.js:81
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+14) Scenario: RV inventory is filtered using length field # tests\features\UIFeature\inventory_search.feature:28
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given the dealer site is configured with "dstMarine" and "dstRV" # tests\steps\ui\length_filter_accuracy_steps.js:8
+    - And the user is on the SRP page # tests\steps\ui\length_filter_accuracy_steps.js:15
+    - Given an RV unit exists with "length" of "28" # tests\steps\ui\length_filter_accuracy_steps.js:91
+    - When the user applies a length filter range "27 to 30" # tests\steps\ui\length_filter_accuracy_steps.js:39
+    - Then the RV unit should be displayed in the results # tests\steps\ui\length_filter_accuracy_steps.js:96
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+15) Scenario: Length slider reflects correct inventory range # tests\features\UIFeature\inventory_search.feature:34
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given the dealer site is configured with "dstMarine" and "dstRV" # tests\steps\ui\length_filter_accuracy_steps.js:8
+    - And the user is on the SRP page # tests\steps\ui\length_filter_accuracy_steps.js:15
+    - Given Marine and RV inventory is available # tests\steps\ui\length_filter_accuracy_steps.js:102
+    - When the SRP page is loaded # tests\steps\ui\length_filter_accuracy_steps.js:107
+    - Then the length slider minimum value should match the smallest available value # tests\steps\ui\length_filter_accuracy_steps.js:119
+    - And the length slider maximum value should match the largest available value # tests\steps\ui\length_filter_accuracy_steps.js:126
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+16) Scenario: Each vertical uses correct length attribute independently # tests\features\UIFeature\inventory_search.feature:41
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given the dealer site is configured with "dstMarine" and "dstRV" # tests\steps\ui\length_filter_accuracy_steps.js:8
+    - And the user is on the SRP page # tests\steps\ui\length_filter_accuracy_steps.js:15
+    - Given Marine units use "LOA length" # tests\steps\ui\length_filter_accuracy_steps.js:132
+    - And RV units use "length" # tests\steps\ui\length_filter_accuracy_steps.js:137
+    - When the user applies a length filter range "20 to 30" # tests\steps\ui\length_filter_accuracy_steps.js:39
+    - Then Marine units should be filtered using "LOA length" # tests\steps\ui\length_filter_accuracy_steps.js:142
+    - And RV units should be filtered using "length" # tests\steps\ui\length_filter_accuracy_steps.js:147
+    - And results should be accurate per vertical # tests\steps\ui\length_filter_accuracy_steps.js:152
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+17) Scenario: Validate inventory filters for dealer sites # tests\features\UIFeature\InventoryModule.feature:16
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given User opens "https://powersports-v7-simple.qa.dsp.leadventure.dev" site # tests\steps\ui\inventoryModuleSteps.js:9
+    - When User clicks on Inventory page # tests\steps\ui\inventoryModuleSteps.js:21
+    - Then the All categories filter should display "All Categories" # tests\steps\ui\inventory_filters_steps.js:328
+    - Then the All makes filter should display "All Makes" # tests\steps\ui\inventory_filters_steps.js:369
+    - Then the All years filter should display "All Years" # tests\steps\ui\inventory_filters_steps.js:402
+    - When I select category "Adventure" from categories filter # tests\steps\ui\inventory_filters_steps.js:419
+    - Then the results should be filtered by category "Adventure" # tests\steps\ui\inventory_filters_steps.js:635
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+18) Scenario: Validate inventory filters for dealer sites # tests\features\UIFeature\InventoryModule.feature:17
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given User opens "https://powersports-v7-complex.qa.dsp.leadventure.dev" site # tests\steps\ui\inventoryModuleSteps.js:9
+    - When User clicks on Inventory page # tests\steps\ui\inventoryModuleSteps.js:21
+    - Then the All categories filter should display "All Categories" # tests\steps\ui\inventory_filters_steps.js:328
+    - Then the All makes filter should display "All Makes" # tests\steps\ui\inventory_filters_steps.js:369
+    - Then the All years filter should display "All Years" # tests\steps\ui\inventory_filters_steps.js:402
+    - When I select category "Adventure" from categories filter # tests\steps\ui\inventory_filters_steps.js:419
+    - Then the results should be filtered by category "Adventure" # tests\steps\ui\inventory_filters_steps.js:635
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+19) Scenario: Length filter correctly applies to both Marine and RV inventory # tests\features\UIFeature\length_filter_accuracy.feature:12
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given the dealer site is configured with "dstMarine" and "dstRV" # tests\steps\ui\length_filter_accuracy_steps.js:8
+    - And the user is on the SRP page # tests\steps\ui\length_filter_accuracy_steps.js:15
+    - Given Marine units have valid "LOA length" values # tests\steps\ui\length_filter_accuracy_steps.js:29
+    - And RV units have valid "length" values # tests\steps\ui\length_filter_accuracy_steps.js:34
+    - When the user applies a length filter range "20 to 30" # tests\steps\ui\length_filter_accuracy_steps.js:39
+    ? Then Marine units with "LOA length" between "20 and 30" should be displayed
+        Undefined. Implement with the following snippet:
+
+          Then('Marine units with {string} between {string} should be displayed', function (string, string2) {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    ? And RV units with "length" between "20 and 30" should be displayed
+        Undefined. Implement with the following snippet:
+
+          Then('RV units with {string} between {string} should be displayed', function (string, string2) {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    - And no units outside the selected range should be shown # tests\steps\ui\length_filter_accuracy_steps.js:63
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+20) Scenario: Marine inventory is filtered using LOA length # tests\features\UIFeature\length_filter_accuracy.feature:21
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given the dealer site is configured with "dstMarine" and "dstRV" # tests\steps\ui\length_filter_accuracy_steps.js:8
+    - And the user is on the SRP page # tests\steps\ui\length_filter_accuracy_steps.js:15
+    - Given a Marine unit exists with stock number "28438" # tests\steps\ui\length_filter_accuracy_steps.js:69
+    - And the unit has "LOA length" of "25" # tests\steps\ui\length_filter_accuracy_steps.js:74
+    - When the user applies a length filter range "24 to 26" # tests\steps\ui\length_filter_accuracy_steps.js:39
+    - Then the Marine unit with stock number "28438" should be displayed # tests\steps\ui\length_filter_accuracy_steps.js:81
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+21) Scenario: RV inventory is filtered using length field # tests\features\UIFeature\length_filter_accuracy.feature:28
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given the dealer site is configured with "dstMarine" and "dstRV" # tests\steps\ui\length_filter_accuracy_steps.js:8
+    - And the user is on the SRP page # tests\steps\ui\length_filter_accuracy_steps.js:15
+    - Given an RV unit exists with "length" of "28" # tests\steps\ui\length_filter_accuracy_steps.js:91
+    - When the user applies a length filter range "27 to 30" # tests\steps\ui\length_filter_accuracy_steps.js:39
+    - Then the RV unit should be displayed in the results # tests\steps\ui\length_filter_accuracy_steps.js:96
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+22) Scenario: Length slider reflects correct inventory range # tests\features\UIFeature\length_filter_accuracy.feature:34
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given the dealer site is configured with "dstMarine" and "dstRV" # tests\steps\ui\length_filter_accuracy_steps.js:8
+    - And the user is on the SRP page # tests\steps\ui\length_filter_accuracy_steps.js:15
+    - Given Marine and RV inventory is available # tests\steps\ui\length_filter_accuracy_steps.js:102
+    - When the SRP page is loaded # tests\steps\ui\length_filter_accuracy_steps.js:107
+    - Then the length slider minimum value should match the smallest available value # tests\steps\ui\length_filter_accuracy_steps.js:119
+    - And the length slider maximum value should match the largest available value # tests\steps\ui\length_filter_accuracy_steps.js:126
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+23) Scenario: Each vertical uses correct length attribute independently # tests\features\UIFeature\length_filter_accuracy.feature:41
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given the dealer site is configured with "dstMarine" and "dstRV" # tests\steps\ui\length_filter_accuracy_steps.js:8
+    - And the user is on the SRP page # tests\steps\ui\length_filter_accuracy_steps.js:15
+    - Given Marine units use "LOA length" # tests\steps\ui\length_filter_accuracy_steps.js:132
+    - And RV units use "length" # tests\steps\ui\length_filter_accuracy_steps.js:137
+    - When the user applies a length filter range "20 to 30" # tests\steps\ui\length_filter_accuracy_steps.js:39
+    - Then Marine units should be filtered using "LOA length" # tests\steps\ui\length_filter_accuracy_steps.js:142
+    - And RV units should be filtered using "length" # tests\steps\ui\length_filter_accuracy_steps.js:147
+    - And results should be accurate per vertical # tests\steps\ui\length_filter_accuracy_steps.js:152
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+24) Scenario: Admin can log in with valid credentials # tests\features\UIFeature\login.feature:6
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given I navigate to the admin login page # tests\steps\ui\login_steps.js:4
+    - When I log in with valid admin credentials # tests\steps\ui\login_steps.js:10
+    - Then I should be logged in to the admin console # tests\steps\ui\login_steps.js:19
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+25) Scenario: User can view part request page with all form elements # tests\features\UIFeature\partRequest.feature:8
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given I navigate to dealerspike parts request page "https://qa-powersports.clients.dealerspike.net/request-parts-dealership--xparts_request" # tests\steps\ui\login_steps.js:52
+    - When I verify the part request page is loaded # tests\steps\ui\partRequest_steps.js:6
+    - Then I should see the part request form # tests\steps\ui\partRequest_steps.js:27
+    - And I should see all required form fields # tests\steps\ui\partRequest_steps.js:66
+    - And I should verify the dealership information is displayed # tests\steps\ui\partRequest_steps.js:97
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+26) Scenario: User can fill in basic part request information # tests\features\UIFeature\partRequest.feature:15
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given I navigate to dealerspike parts request page "https://qa-powersports.clients.dealerspike.net/request-parts-dealership--xparts_request" # tests\steps\ui\login_steps.js:52
+    - When I fill in part request form with following details: # tests\steps\ui\partRequest_steps.js:133
+        | field        | value             |
+        | partNumber   | ABC-123-XYZ       |
+        | partName     | Engine Oil Filter |
+        | quantity     | 5                 |
+        | requestNotes | Urgent delivery   |
+    - Then I should see the filled part request details # tests\steps\ui\partRequest_steps.js:200
+    - And I should see the part quantity is "5" # tests\steps\ui\partRequest_steps.js:226
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+27) Scenario: User can add multiple parts to a request # tests\features\UIFeature\partRequest.feature:26
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given I navigate to dealerspike parts request page "https://qa-powersports.clients.dealerspike.net/request-parts-dealership--xparts_request" # tests\steps\ui\login_steps.js:52
+    - When I add a new part with the following details: # tests\steps\ui\partRequest_steps.js:261
+        | partNumber | ABC-001 |
+        | quantity   | 3       |
+    - And I add a new part with the following details: # tests\steps\ui\partRequest_steps.js:261
+        | partNumber | XYZ-999 |
+        | quantity   | 2       |
+    - Then I should see "2" parts added to the request # tests\steps\ui\partRequest_steps.js:330
+    - And I should verify the total parts count is "2" # tests\steps\ui\partRequest_steps.js:348
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+28) Scenario: User can select dealership location # tests\features\UIFeature\partRequest.feature:37
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given I navigate to dealerspike parts request page "https://qa-powersports.clients.dealerspike.net/request-parts-dealership--xparts_request" # tests\steps\ui\login_steps.js:52
+    - When I click on the dealership location dropdown # tests\steps\ui\partRequest_steps.js:367
+    - Then I should see available dealership locations # tests\steps\ui\partRequest_steps.js:400
+    - When I select a dealership from the list # tests\steps\ui\partRequest_steps.js:433
+    - Then I should verify the selected dealership is displayed # tests\steps\ui\partRequest_steps.js:464
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+29) Scenario: User can submit a part request # tests\features\UIFeature\partRequest.feature:44
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given I navigate to dealerspike parts request page "https://qa-powersports.clients.dealerspike.net/request-parts-dealership--xparts_request" # tests\steps\ui\login_steps.js:52
+    - When I fill in part request form with following details: # tests\steps\ui\partRequest_steps.js:133
+        | field      | value     |
+        | partNumber | TEST-001  |
+        | partName   | Test Part |
+        | quantity   | 1         |
+    - And I click the submit part request button # tests\steps\ui\partRequest_steps.js:496
+    - Then I should see a success message or confirmation # tests\steps\ui\partRequest_steps.js:531
+    - And I should verify the request was submitted with reference number # tests\steps\ui\partRequest_steps.js:567
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+30) Scenario: User cannot submit empty part request # tests\features\UIFeature\partRequest.feature:55
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given I navigate to dealerspike parts request page "https://qa-powersports.clients.dealerspike.net/request-parts-dealership--xparts_request" # tests\steps\ui\login_steps.js:52
+    - When I click the submit part request button without filling form # tests\steps\ui\partRequest_steps.js:600
+    - Then I should see validation error messages # tests\steps\ui\partRequest_steps.js:632
+    - And I should see "Part number is required" error # tests\steps\ui\partRequest_steps.js:665
+    - And I should see "Quantity is required" error # tests\steps\ui\partRequest_steps.js:665
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+31) Scenario: User cannot enter invalid quantity # tests\features\UIFeature\partRequest.feature:62
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given I navigate to dealerspike parts request page "https://qa-powersports.clients.dealerspike.net/request-parts-dealership--xparts_request" # tests\steps\ui\login_steps.js:52
+    - When I fill in part request form with following details: # tests\steps\ui\partRequest_steps.js:133
+        | field      | value    |
+        | partNumber | TEST-002 |
+        | quantity   | -5       |
+    - Then I should see quantity validation error # tests\steps\ui\partRequest_steps.js:682
+    - And I should see error message "Quantity must be greater than 0" # tests\steps\ui\partRequest_steps.js:714
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+32) Scenario: User can clear part request form # tests\features\UIFeature\partRequest.feature:71
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given I navigate to dealerspike parts request page "https://qa-powersports.clients.dealerspike.net/request-parts-dealership--xparts_request" # tests\steps\ui\login_steps.js:52
+    - When I fill in part request form with following details: # tests\steps\ui\partRequest_steps.js:133
+        | field      | value      |
+        | partNumber | CLEAR-TEST |
+        | partName   | Clear Test |
+        | quantity   | 10         |
+    - And I click the clear form button # tests\steps\ui\partRequest_steps.js:731
+    - Then I should see an empty part request form # tests\steps\ui\partRequest_steps.js:763
+    - And I should verify all fields are cleared # tests\steps\ui\partRequest_steps.js:795
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+33) Scenario: User can view part request history # tests\features\UIFeature\partRequest.feature:82
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given I navigate to dealerspike parts request page "https://qa-powersports.clients.dealerspike.net/request-parts-dealership--xparts_request" # tests\steps\ui\login_steps.js:52
+    - When I click on part request history link # tests\steps\ui\partRequest_steps.js:820
+    - Then I should see a list of previous requests # tests\steps\ui\partRequest_steps.js:853
+    - And I should see request timestamps # tests\steps\ui\partRequest_steps.js:884
+    - And I should see request statuses # tests\steps\ui\partRequest_steps.js:903
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+34) Scenario: User can edit an existing part request # tests\features\UIFeature\partRequest.feature:89
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given I navigate to dealerspike parts request page "https://qa-powersports.clients.dealerspike.net/request-parts-dealership--xparts_request" # tests\steps\ui\login_steps.js:52
+    - When I navigate to part request history # tests\steps\ui\partRequest_steps.js:926
+    - And I select the first request from the list # tests\steps\ui\partRequest_steps.js:946
+    - Then I should see the request details # tests\steps\ui\partRequest_steps.js:979
+    - When I click the edit request button # tests\steps\ui\partRequest_steps.js:1009
+    - Then I should see the part request form populated with request details # tests\steps\ui\partRequest_steps.js:1042
+    - And I should be able to modify the part details # tests\steps\ui\partRequest_steps.js:1064
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+35) Scenario: Inventory page loads successfully with correct title and meta # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:6
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    ├ù Then the page title should contain "new-for-sale--xNewInventory"
+        Multiple step definitions match:
+          the page title should contain {string} - tests\steps\ui\STEP_TEMPLATE.js:369    
+          the page title should contain {string} - tests\steps\ui\v7_inventory_steps.js:40
+    - And the page should return HTTP status 200 # tests\steps\ui\v7_inventory_steps.js:46
+    - And the canonical URL should match the expected inventory URL # tests\steps\ui\v7_inventory_steps.js:52
+    - And the meta description should not be empty # tests\steps\ui\v7_inventory_steps.js:58
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+36) Scenario: Core inventory page sections are visible on load # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:13
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Then the page header should be displayed # tests\steps\ui\v7_inventory_steps.js:68
+    - And the inventory results section should be displayed # tests\steps\ui\v7_inventory_steps.js:74
+    - And the filter/facet panel should be displayed # tests\steps\ui\v7_inventory_steps.js:80
+    - And the sort dropdown should be displayed # tests\steps\ui\v7_inventory_steps.js:86
+    - And the results count label should be displayed # tests\steps\ui\v7_inventory_steps.js:92
+    - And the pagination component should be displayed # tests\steps\ui\v7_inventory_steps.js:98
+    - And the page footer should be displayed # tests\steps\ui\v7_inventory_steps.js:104
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+37) Scenario: Inventory page displays the correct condition pre-selected # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:23
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Then the "New" condition filter should be pre-selected # tests\steps\ui\v7_inventory_steps.js:114
+    - And the results count should reflect new inventory only # tests\steps\ui\v7_inventory_steps.js:120
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+38) Scenario: Inventory page hero or breadcrumb displays correct dealer context # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:28
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Then the breadcrumb trail should contain "Harley-Davidson" # tests\steps\ui\v7_inventory_steps.js:130
+    - And the breadcrumb trail should contain "New Motorcycles" # tests\steps\ui\v7_inventory_steps.js:130
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+39) Scenario: Inventory listings are displayed on page load # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:35
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Then at least one inventory vehicle card should be visible # tests\steps\ui\v7_inventory_steps.js:140
+    - And each vehicle card should display a vehicle image # tests\steps\ui\v7_inventory_steps.js:146
+    - And each vehicle card should display the vehicle year, make and model # tests\steps\ui\v7_inventory_steps.js:152
+    - And each vehicle card should display the MSRP or price # tests\steps\ui\v7_inventory_steps.js:159
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+40) Scenario: Vehicle card displays all required information elements # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:42
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user views the first vehicle card in the listing # tests\steps\ui\v7_inventory_steps.js:169
+    - Then the card should display the vehicle image # tests\steps\ui\v7_inventory_steps.js:175
+    - And the card should display the vehicle year # tests\steps\ui\v7_inventory_steps.js:179
+    - And the card should display the make as "Harley-Davidson" # tests\steps\ui\v7_inventory_steps.js:183
+    - And the card should display the model name # tests\steps\ui\v7_inventory_steps.js:189
+    - And the card should display the stock number or VIN # tests\steps\ui\v7_inventory_steps.js:193
+    - And the card should display the price or "Call for Price" label # tests\steps\ui\v7_inventory_steps.js:197
+    - And the card should display a primary CTA button # tests\steps\ui\v7_inventory_steps.js:205
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+41) Scenario: Vehicle card primary CTA navigates to Vehicle Detail Page # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:53
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user clicks the primary CTA on the first vehicle card # tests\steps\ui\v7_inventory_steps.js:213
+    - Then the user should be redirected to the Vehicle Detail Page # tests\steps\ui\v7_inventory_steps.js:222
+    ? And the VDP URL should contain the vehicle's stock number or identifier
+        Undefined. Implement with the following snippet:
+
+          Then('the VDP URL should contain the vehicle\'s stock number or identifier', function () {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    - And the VDP should display the same vehicle make and model as the card # tests\steps\ui\v7_inventory_steps.js:234
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+42) Scenario: Vehicle card image is clickable and navigates to VDP # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:60
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user clicks the vehicle image on the first vehicle card # tests\steps\ui\v7_inventory_steps.js:246
+    - Then the user should be redirected to the corresponding Vehicle Detail Page # tests\steps\ui\v7_inventory_steps.js:255
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+43) Scenario: Vehicle card title link is clickable and navigates to VDP # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:65
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user clicks the vehicle title/name on the first vehicle card # tests\steps\ui\v7_inventory_steps.js:265
+    - Then the user should be redirected to the corresponding Vehicle Detail Page # tests\steps\ui\v7_inventory_steps.js:255
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+44) Scenario: No broken images appear on vehicle cards # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:70
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Then no vehicle card image should return a 404 status # tests\steps\ui\v7_inventory_steps.js:278
+    - And no image placeholder icon should be visible in place of a vehicle photo # tests\steps\ui\v7_inventory_steps.js:284
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+45) Scenario: New condition filter is active by default from URL parameter # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:77
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Then the "condition=new" parameter should be present in the URL # tests\steps\ui\v7_inventory_steps.js:294
+    - And the "New" filter chip or checkbox should appear selected # tests\steps\ui\v7_inventory_steps.js:299
+    - And the inventory results should contain only new vehicles # tests\steps\ui\v7_inventory_steps.js:305
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+46) Scenario: User can switch condition filter to Used # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:83
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user selects the "Used" condition filter # tests\steps\ui\v7_inventory_steps.js:311
+    - Then the URL should update to include "condition=used" # tests\steps\ui\v7_inventory_steps.js:323
+    - And the results should refresh to show used vehicles # tests\steps\ui\v7_inventory_steps.js:328
+    - And the results count should update accordingly # tests\steps\ui\v7_inventory_steps.js:333
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+47) Scenario: Clearing the condition filter returns all inventory # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:90
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user removes the active "New" condition filter # tests\steps\ui\v7_inventory_steps.js:338
+    - Then the condition parameter should be removed or set to "all" in the URL # tests\steps\ui\v7_inventory_steps.js:353
+    ? And the results count should be greater than or equal to the new-only count
+        Undefined. Implement with the following snippet:
+
+          Then('the results count should be greater than or equal to the new-only count', function () {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+48) Scenario: Harley-Davidson make is pre-applied from the inventory page context # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:97
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Then "Harley-Davidson" should appear as the active make filter # tests\steps\ui\v7_inventory_steps.js:366
+    - And all displayed vehicles should have the make "Harley-Davidson" # tests\steps\ui\v7_inventory_steps.js:372
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+49) Scenario: User can filter inventory by a specific model # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:102
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user selects a model from the Model filter facet # tests\steps\ui\v7_inventory_steps.js:506
+    ? Then the URL should update to include the selected model parameter
+        Undefined. Implement with the following snippet:
+
+          Then('the URL should update to include the selected model parameter', function () {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    - And all displayed vehicle cards should match the selected model # tests\steps\ui\v7_inventory_steps.js:511
+    ? And the results count should decrease or remain the same
+        Undefined. Implement with the following snippet:
+
+          Then('the results count should decrease or remain the same', function () {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+50) Scenario: User can filter inventory by motorcycle category # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:109
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user selects a category such as "Touring" from the Category filter # tests\steps\ui\v7_inventory_steps.js:535
+    - Then the results should only display vehicles in the "Touring" category # tests\steps\ui\v7_inventory_steps.js:540
+    - And the active filter chip for "Touring" should be visible # tests\steps\ui\v7_inventory_steps.js:545
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+51) Scenario: Model filter dropdown shows only models relevant to Harley-Davidson # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:115
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user opens the Model filter panel # tests\steps\ui\v7_inventory_steps.js:516
+    - Then the model list should contain Harley-Davidson model names only # tests\steps\ui\v7_inventory_steps.js:521
+    - And the model list should not contain models from other manufacturers # tests\steps\ui\v7_inventory_steps.js:526
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+52) Scenario: User can set a minimum price filter # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:121
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user sets the minimum price filter to "10000" # tests\steps\ui\v7_inventory_steps.js:556
+    ? Then the URL should update with the minimum price parameter
+        Undefined. Implement with the following snippet:
+
+          Then('the URL should update with the minimum price parameter', function () {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    ? And all displayed vehicles should have a price of at least $10,000
+        Undefined. Implement with the following snippet:
+
+          Then('all displayed vehicles should have a price of at least ${int},{int}', function (int, int2) {
+          // Then('all displayed vehicles should have a price of at least ${int},{float}', function (int, float) {
+          // Then('all displayed vehicles should have a price of at least ${float},{int}', function (float, int) {
+          // Then('all displayed vehicles should have a price of at least ${float},{float}', function (float, float2) {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+53) Scenario: User can set a maximum price filter # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:127
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user sets the maximum price filter to "30000" # tests\steps\ui\v7_inventory_steps.js:565
+    ? Then the URL should update with the maximum price parameter
+        Undefined. Implement with the following snippet:
+
+          Then('the URL should update with the maximum price parameter', function () {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    ? And all displayed vehicles should have a price of at most $30,000
+        Undefined. Implement with the following snippet:
+
+          Then('all displayed vehicles should have a price of at most ${int},{int}', function (int, int2) {
+          // Then('all displayed vehicles should have a price of at most ${int},{float}', function (int, float) {
+          // Then('all displayed vehicles should have a price of at most ${float},{int}', function (float, int) {
+          // Then('all displayed vehicles should have a price of at most ${float},{float}', function (float, float2) {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+54) Scenario: User can set a price range using both min and max filters # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:133
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user sets the minimum price filter to "15000" # tests\steps\ui\v7_inventory_steps.js:556
+    - And the user sets the maximum price filter to "25000" # tests\steps\ui\v7_inventory_steps.js:565
+    ? Then all displayed vehicles should have a price between $15,000 and $25,000
+        Undefined. Implement with the following snippet:
+
+          Then('all displayed vehicles should have a price between ${int},{int} and ${int},{int}', function (int, int2, int3, int4) {
+          // Then('all displayed vehicles should have a price between ${int},{int} and ${int},{float}', function (int, int2, int3, float) {
+          // Then('all displayed vehicles should have a price between ${int},{int} and ${float},{int}', function (int, int2, float, int3) {
+          // Then('all displayed vehicles should have a price between ${int},{int} and ${float},{float}', function (int, int2, float, float2) {
+          // Then('all displayed vehicles should have a price between ${int},{float} and ${int},{int}', function (int, float, int2, int3) {
+          // Then('all displayed vehicles should have a price between ${int},{float} and ${int},{float}', function (int, float, int2, float2) {
+          // Then('all displayed vehicles should have a price between ${int},{float} and ${float},{int}', function (int, float, float2, int2) {
+          // Then('all displayed vehicles should have a price between ${int},{float} and ${float},{float}', function (int, float, float2, float3) {
+          // Then('all displayed vehicles should have a price between ${float},{int} and ${int},{int}', function (float, int, int2, int3) {
+          // Then('all displayed vehicles should have a price between ${float},{int} and ${int},{float}', function (float, int, int2, float2) {
+          // Then('all displayed vehicles should have a price between ${float},{int} and ${float},{int}', function (float, int, float2, int2) {
+          // Then('all displayed vehicles should have a price between ${float},{int} and ${float},{float}', function (float, int, float2, float3) {
+          // Then('all displayed vehicles should have a price between ${float},{float} and ${int},{int}', function (float, float2, int, int2) {
+          // Then('all displayed vehicles should have a price between ${float},{float} and ${int},{float}', function (float, float2, int, float3) {
+          // Then('all displayed vehicles should have a price between ${float},{float} and ${float},{int}', function (float, float2, float3, int) {
+          // Then('all displayed vehicles should have a price between ${float},{float} and ${float},{float}', function (float, float2, float3, float4) {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+55) Scenario: Entering an invalid price range shows a validation message # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:139
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user sets the minimum price filter to "50000" # tests\steps\ui\v7_inventory_steps.js:556
+    - And the user sets the maximum price filter to "10000" # tests\steps\ui\v7_inventory_steps.js:565
+    - Then a validation error or empty results message should be displayed # tests\steps\ui\v7_inventory_steps.js:589
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+56) Scenario: User can filter inventory by a specific year # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:146
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user selects a year from the Year filter facet # tests\steps\ui\v7_inventory_steps.js:600
+    ? Then the URL should update with the selected year parameter
+        Undefined. Implement with the following snippet:
+
+          Then('the URL should update with the selected year parameter', function () {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    - And all displayed vehicle cards should show the selected year # tests\steps\ui\v7_inventory_steps.js:605
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+57) Scenario: User can filter by a year range using min and max year selectors # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:152
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user sets the minimum year to "2022" # tests\steps\ui\v7_inventory_steps.js:610
+    - And the user sets the maximum year to "2024" # tests\steps\ui\v7_inventory_steps.js:615
+    - Then all displayed vehicles should have a model year between 2022 and 2024 # tests\steps\ui\v7_inventory_steps.js:620
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+58) Scenario: User can filter inventory by exterior color # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:159
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user selects a color option from the Color filter facet # tests\steps\ui\v7_inventory_steps.js:629
+    - Then the results should update to show only vehicles matching the selected color # tests\steps\ui\v7_inventory_steps.js:634
+    ? And the active filter chip for the selected color should be visible
+        Undefined. Implement with the following snippet:
+
+          Then('the active filter chip for the selected color should be visible', function () {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+59) Scenario: User can filter inventory by engine displacement or type # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:165
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user selects an engine size or type from the Engine filter # tests\steps\ui\v7_inventory_steps.js:643
+    - Then the results should reflect only vehicles matching the engine specification # tests\steps\ui\v7_inventory_steps.js:648
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+60) Scenario: Active filters are displayed as removable chips # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:171
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user applies a model filter # tests\steps\ui\v7_inventory_steps.js:658
+    - Then an active filter chip for the selected model should appear # tests\steps\ui\v7_inventory_steps.js:663
+    - And the chip should display the filter name and value # tests\steps\ui\v7_inventory_steps.js:670
+    ? And a remove (├ù) button should be visible on the chip
+        Undefined. Implement with the following snippet:
+
+          Then('a remove \\(├ù) button should be visible on the chip', function () {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+61) Scenario: User can remove an individual active filter chip # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:178
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given the user has applied a model filter # tests\steps\ui\v7_inventory_steps.js:683
+    - When the user clicks the remove button on the model filter chip # tests\steps\ui\v7_inventory_steps.js:688
+    - Then the model filter should be deselected # tests\steps\ui\v7_inventory_steps.js:834
+    - And the URL should no longer contain the model parameter # tests\steps\ui\v7_inventory_steps.js:839
+    - And the results should refresh to the broader filtered set # tests\steps\ui\v7_inventory_steps.js:844
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+62) Scenario: "Clear All Filters" removes all active filters # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:186
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given the user has applied multiple filters including model and price range # tests\steps\ui\v7_inventory_steps.js:850
+    - When the user clicks the "Clear All Filters" or "Reset" button # tests\steps\ui\v7_inventory_steps.js:856
+    - Then all active filter chips should be removed # tests\steps\ui\v7_inventory_steps.js:865
+    - And the URL should revert to the base inventory URL with only the condition parameter # tests\steps\ui\v7_inventory_steps.js:871
+    - And the results count should return to the full new inventory count # tests\steps\ui\v7_inventory_steps.js:877
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+63) Scenario: Default sort order is Make ascending as set by URL parameter # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:195
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Then the sort dropdown should display "Make: A to Z" or equivalent ascending option # tests\steps\ui\v7_inventory_steps.js:382
+    - And the URL should contain "sortby=Make|asc" # tests\steps\ui\v7_inventory_steps.js:388
+    - And the first vehicle in the listing should reflect the earliest alphabetical make value # tests\steps\ui\v7_inventory_steps.js:393
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+64) Scenario: User can sort inventory by Price ΓÇô Low to High # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:201
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user selects "Price: Low to High" from the sort dropdown # tests\steps\ui\v7_inventory_steps.js:399
+    ? Then the URL should update with the price ascending sort parameter
+        Undefined. Implement with the following snippet:
+
+          Then('the URL should update with the price ascending sort parameter', function () {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    - And the first vehicle card should display the lowest price in the results set # tests\steps\ui\v7_inventory_steps.js:419
+    - And vehicle prices should be in ascending order across visible cards # tests\steps\ui\v7_inventory_steps.js:426
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+65) Scenario: User can sort inventory by Price ΓÇô High to Low # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:208
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user selects "Price: High to Low" from the sort dropdown # tests\steps\ui\v7_inventory_steps.js:399
+    ? Then the URL should update with the price descending sort parameter
+        Undefined. Implement with the following snippet:
+
+          Then('the URL should update with the price descending sort parameter', function () {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    - And the first vehicle card should display the highest price in the results set # tests\steps\ui\v7_inventory_steps.js:431
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+66) Scenario: User can sort inventory by Year ΓÇô Newest First # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:214
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user selects "Year: Newest First" from the sort dropdown # tests\steps\ui\v7_inventory_steps.js:399
+    ? Then the URL should update with the year descending sort parameter
+        Undefined. Implement with the following snippet:
+
+          Then('the URL should update with the year descending sort parameter', function () {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    - And the vehicle years should be displayed in descending order across visible cards # tests\steps\ui\v7_inventory_steps.js:438
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+67) Scenario: User can sort inventory by Year ΓÇô Oldest First # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:220
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user selects "Year: Oldest First" from the sort dropdown # tests\steps\ui\v7_inventory_steps.js:399
+    - Then the vehicle years should be displayed in ascending order across visible cards # tests\steps\ui\v7_inventory_steps.js:443
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+68) Scenario: User can sort inventory by Make A to Z # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:225
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user selects "Make: A to Z" from the sort dropdown # tests\steps\ui\v7_inventory_steps.js:399
+    - Then the URL should contain "sortby=Make|asc" # tests\steps\ui\v7_inventory_steps.js:388
+    - And vehicle makes should appear in ascending alphabetical order # tests\steps\ui\v7_inventory_steps.js:448
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+69) Scenario: User can sort inventory by Make Z to A # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:231
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user selects "Make: Z to A" from the sort dropdown # tests\steps\ui\v7_inventory_steps.js:399
+    - Then the URL should contain "sortby=Make|desc" # tests\steps\ui\v7_inventory_steps.js:388
+    - And vehicle makes should appear in descending alphabetical order # tests\steps\ui\v7_inventory_steps.js:453
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+70) Scenario: Pagination is displayed when results exceed one page # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:239
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given the inventory has more results than the default page size # tests\steps\ui\v7_inventory_steps.js:462
+    ? Then the pagination component should be visible
+        Undefined. Implement with the following snippet:
+
+          Then('the pagination component should be visible', function () {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    - And the current page should be highlighted as page "1" # tests\steps\ui\v7_inventory_steps.js:468
+    - And a "Next" or forward navigation control should be available # tests\steps\ui\v7_inventory_steps.js:474
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+71) Scenario: User can navigate to the next page of results # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:246
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given the inventory has more than one page of results # tests\steps\ui\v7_inventory_steps.js:480
+    - When the user clicks the "Next" pagination button # tests\steps\ui\v7_inventory_steps.js:486
+    - Then the URL should update to "pg=2" # tests\steps\ui\v7_inventory_steps.js:497
+    - And a new set of vehicle cards should be displayed # tests\steps\ui\v7_inventory_steps.js:701
+    - And the current page indicator should show page "2" # tests\steps\ui\v7_inventory_steps.js:707
+    - And the "Previous" pagination button should become active # tests\steps\ui\v7_inventory_steps.js:719
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+72) Scenario: User can navigate back to the previous page # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:256
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given the user is on page 2 of the inventory results # tests\steps\ui\v7_inventory_steps.js:735
+    - When the user clicks the "Previous" pagination button # tests\steps\ui\v7_inventory_steps.js:486
+    - Then the URL should update to "pg=1" # tests\steps\ui\v7_inventory_steps.js:497
+    ? And the page "1" indicator should be highlighted as active
+        Undefined. Implement with the following snippet:
+
+          Then('the page {string} indicator should be highlighted as active', function (string) {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+73) Scenario: "Previous" button is disabled or hidden on the first page # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:263
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given the user is on page 1 of the inventory results # tests\steps\ui\v7_inventory_steps.js:735
+    - Then the "Previous" pagination button should be disabled or not rendered # tests\steps\ui\v7_inventory_steps.js:743
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+74) Scenario: "Next" button is disabled or hidden on the last page # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:268
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given the user is on the last page of the inventory results # tests\steps\ui\v7_inventory_steps.js:766
+    - Then the "Next" pagination button should be disabled or not rendered # tests\steps\ui\v7_inventory_steps.js:743
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+75) Scenario: Pagination resets to page 1 when a new filter is applied # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:273
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given the user is on page 2 of the inventory results # tests\steps\ui\v7_inventory_steps.js:735
+    - When the user applies a new model filter # tests\steps\ui\v7_inventory_steps.js:779
+    - Then the URL should update to "pg=1" # tests\steps\ui\v7_inventory_steps.js:497
+    - And the results should display from the first page # tests\steps\ui\v7_inventory_steps.js:784
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+76) Scenario: Results per page selector updates the number of visible cards # tests\features\UIFeature\V7_Powersports_Inventory_Scenarios.feature:280
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - When the user changes the results-per-page setting to "24" # tests\steps\ui\v7_inventory_steps.js:792
+    - Then up to 24 vehicle cards should be visible on the page # tests\steps\ui\v7_inventory_steps.js:821
+    - And the pagination total should adjust accordingly # tests\steps\ui\v7_inventory_steps.js:827
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+77) Scenario: Validate all configured sites # tests\features\UIFeature\validate_many_sites.feature:4
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given the list of sites is loaded # file:\C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\api\validate_sites_steps.js:10
+    - When I request the default xxtest page for each site # file:\C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\api\validate_sites_steps.js:18
+    - Then each response should include the expected IP and header values # file:\C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\api\validate_sites_steps.js:47
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+78) Scenario: Search for an inventory item # tests\features\UIFeature\xinv_manager.feature:10
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given the XInv Manager admin page is available # tests\steps\ui\xinv_manager_new_steps.js:9
+    - And admin credentials are configured # tests\steps\ui\xinv_manager_new_steps.js:15
+    - When I navigate to the XInv Manager # tests\steps\ui\xinv_manager_new_steps.js:27
+    - And I search XInv for "motorcycle" # tests\steps\ui\xinv_manager_new_steps.js:38
+    - Then I should see at least one search result # tests\steps\ui\xinv_manager_new_steps.js:67
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+79) Scenario: Verify XInv Manager page header is displayed # tests\features\UIFeature\xinv_manager.feature:15
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given the XInv Manager admin page is available # tests\steps\ui\xinv_manager_new_steps.js:9
+    - And admin credentials are configured # tests\steps\ui\xinv_manager_new_steps.js:15
+    - When I navigate to the XInv Manager # tests\steps\ui\xinv_manager_new_steps.js:27
+    - Then I should see the XInv Manager header # tests\steps\ui\xinv_manager_new_steps.js:86
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+80) Scenario: Validate pagination on XInv Manager page # tests\features\UIFeature\xinv_manager.feature:19
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given the XInv Manager admin page is available # tests\steps\ui\xinv_manager_new_steps.js:9
+    - And admin credentials are configured # tests\steps\ui\xinv_manager_new_steps.js:15
+    - When I navigate to the XInv Manager URL "https://powersports-v7-complex.sbx.dsp.leadventure.dev/" # tests\steps\ui\xinv_manager_new_steps.js:235
+    - Then I should see pagination controls # tests\steps\ui\xinv_manager_new_steps.js:245
+    - And I should be able to navigate through pages # tests\steps\ui\xinv_manager_new_steps.js:263
+    ? And I click on "new inventory page"
+        Undefined. Implement with the following snippet:
+
+          Then('I click on {string}', function (string) {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+81) Scenario: 436034 Inventory Manager | Select Existing Inventory | Filter By # tests\features\UIFeature\xinventoryManager.feature:17
+    ΓêÜ Before # tests\steps\ui\STEP_TEMPLATE.js:426
+    ΓêÜ Before # tests\steps\ui\v7_inventory_steps.js:7
+    ├ù Before # Setup\hooks.js:39
+        browser.newContext: Target page, context or browser has been closed
+            at async World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\Setup\hooks.js:42:22)
+    - Given I navigate dealerspike parts request page "https://automationsandbox-v7.clients.dealerspike.net" # tests\steps\ui\login_steps.js:56
+    - When I log in with valid admin credentials # tests\steps\ui\login_steps.js:10
+    - When User clicks on Inventory menu on home page # tests\steps\ui\inventory_feature_steps.js:222
+    - Then Inventory navigation bar should be displayed # tests\steps\ui\inventory_feature_steps.js:303
+    - When User clicks Inventory Manager on Inventory Navigation bar # tests\steps\ui\inventory_feature_steps.js:374
+    - Then User should see Inventory Management page in dealerspike admin # tests\steps\ui\inventory_feature_steps.js:419
+    - And Show Options button should be displayed on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:424
+    - When User clicks on Show Options button on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:448
+    - Then Filter option New should be displayed on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:476
+    - And Filter option Used should be displayed on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:476
+    - And Filter option Rental should be displayed on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:476
+    - And Filter option Only Active should be displayed on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:476
+    - And Filter option Featured should be displayed on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:476
+    - And Filter option Clearance should be displayed on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:476
+    - And Filter option In Feed should be displayed on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:476
+    - When User selects 2006 Arctic Cat┬« 2455 Alterra 600 EPS from Inventory Dropdown on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:481
+    - Then Vehicle Type Cargo Trailer should be selected on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:503
+    - And Year 2006 should be selected on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:508
+    - And Manufacturer Arctic Cat┬« should be selected on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:513
+    - And Model Alterra 600 EPS should be selected on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:520
+    ? And Category Bumper Pull should be selected on Inventory Management page
+        Undefined. Implement with the following snippet:
+
+          Then('Category Bumper Pull should be selected on Inventory Management page', function () {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    ? When User unchecks filter option New on Inventory Management page
+        Undefined. Implement with the following snippet:
+
+          When('User unchecks filter option New on Inventory Management page', function () {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    - Then Vehicle Type Cargo Trailer should be selected on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:503
+    - And Year 2006 should be selected on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:508
+    - And Manufacturer empty should be selected on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:513
+    - And Model empty should be selected on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:520
+    ? And Category empty should be selected on Inventory Management page
+        Undefined. Implement with the following snippet:
+
+          Then('Category empty should be selected on Inventory Management page', function () {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+
+    - When User clicks on Show Options button on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:448
+    - Then Filter options should collapse on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:455
+    - And Types filter should display All Types on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:461
+    - And Years filter should display All Years on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:466
+    - And Makes filter should display All Makes on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:471
+    - When User selects Cargo Trailer from Types filter on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:493
+    - Then Option No Vehicles should be present in Inventory Dropdown on Inventory Management page # tests\steps\ui\inventory_feature_steps.js:498
+    ΓêÜ After # Setup\hooks.js:48
+    ├ù After # tests\steps\ui\STEP_TEMPLATE.js:435
+        TypeError: Cannot read properties of undefined (reading 'result')
+            at World.<anonymous> (C:\Users\lokesh.sharma\playwright-js-E2E-Automation\tests\steps\ui\STEP_TEMPLATE.js:446:21)
+
+81 scenarios (81 failed)
+373 steps (5 failed, 1 ambiguous, 25 undefined, 316 skipped, 26 passed)
+3m31.145s (executing steps: 3m30.566s)

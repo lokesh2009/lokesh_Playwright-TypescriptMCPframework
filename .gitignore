@@ -1,0 +1,34 @@
+
+# Dependencies
+node_modules/
+
+# Test results and reports
+/test-results/
+/tests/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+/reports/
+/allure-report/
+/allure-results/
+/allure-results-*/
+
+# MCP server data and logs
+/mcp-data/
+/mcp-logs/
+*.log
+
+# Stale generated artifacts at repo root
+/test-report.html
+/*-results.json
+
+# Environment variables (local secrets)
+.env
+
+# Skills documentation folder
+Skills/
+
+# Claude local runtime state (the shared SDD commands under .claude/commands ARE tracked)
+.claude/scheduled_tasks.lock
+.claude/settings.local.json

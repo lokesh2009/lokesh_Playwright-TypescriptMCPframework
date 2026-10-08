@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dealerspike Automation - Test Execution Report</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f5f7fa; color: #333; padding: 20px; }
+        .container { max-width: 1400px; margin: 0 auto; }
+        .header { background: linear-gradient(135deg, #1a237e 0%, #283593 100%); color: white; padding: 30px; border-radius: 12px; margin-bottom: 24px; text-align: center; }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header p { font-size: 14px; opacity: 0.9; }
+        .header .badge { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; margin: 4px; }
+        .summary-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 24px; }
+        .summary-card { background: white; border-radius: 10px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); text-align: center; }
+        .summary-card .number { font-size: 32px; font-weight: 700; }
+        .summary-card .label { font-size: 13px; color: #666; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+        .summary-card.passed .number { color: #2e7d32; }
+        .summary-card.failed .number { color: #c62828; }
+        .summary-card.ambiguous .number { color: #e65100; }
+        .summary-card.total .number { color: #1a237e; }
+        .summary-card.rate .number { color: #1565c0; }
+        .feature { background: white; border-radius: 10px; overflow: hidden; margin-bottom: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        .feature-header { padding: 16px 20px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; }
+        .feature-header h2 { font-size: 16px; font-weight: 600; }
+        .feature-header .tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; margin-left: 6px; }
+        .feature-header .tag-tag { background: #e8eaf6; color: #283593; }
+        .feature-meta { font-size: 12px; color: #888; margin-top: 2px; }
+        .status { display: inline-flex; align-items: center; gap: 4px; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 600; }
+        .status.passed { background: #e8f5e9; color: #2e7d32; }
+        .status.failed { background: #ffebee; color: #c62828; }
+        .status.ambiguous { background: #fff3e0; color: #e65100; }
+        .status.undefined { background: #f3e5f5; color: #6a1b9a; }
+        .status.skipped { background: #f5f5f5; color: #757575; }
+        .scenario-table { width: 100%; border-collapse: collapse; }
+        .scenario-table th { background: #f5f7fa; padding: 10px 16px; text-align: left; font-size: 12px; text-transform: uppercase; color: #666; border-bottom: 2px solid #e0e0e0; }
+        .scenario-table td { padding: 10px 16px; border-bottom: 1px solid #eee; font-size: 14px; }
+        .scenario-table tr:hover { background: #fafafa; }
+        .scenario-table .steps-detail { font-size: 12px; color: #666; margin-top: 4px; }
+        .scenario-name { font-weight: 500; }
+        .scenario-tags { margin-top: 4px; }
+        .scenario-tags .tag { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 10px; font-weight: 600; margin-right: 4px; background: #e0e0e0; color: #555; }
+        .progress-bar { height: 4px; border-radius: 2px; background: #e0e0e0; margin: 8px 0; }
+        .progress-bar .fill { height: 100%; border-radius: 2px; background: #2e7d32; }
+        .progress-bar .fill.warning { background: #e65100; }
+        .progress-bar .fill.danger { background: #c62828; }
+        .timestamp { font-size: 12px; color: #999; }
+        .feature-accent { height: 3px; }
+        .feature-accent.parts { background: #ff7043; }
+        .feature-accent.admin { background: #42a5f5; }
+        .feature-accent.filters { background: #66bb6a; }
+        .feature-accent.testimonial { background: #ab47bc; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 Dealerspike Automation - Test Execution Report</h1>
+            <p>Comprehensive test results for all tagged feature files</p>
+            <p style="margin-top: 12px;">
+                <span class="badge" style="background:#ff7043;color:white;">@parts-request</span>
+                <span class="badge" style="background:#42a5f5;color:white;">@Admin</span>
+                <span class="badge" style="background:#66bb6a;color:white;">@filters</span>
+                <span class="badge" style="background:#ab47bc;color:white;">@testimonial</span>
+            </p>
+            <p class="timestamp" style="margin-top:12px;color:rgba(255,255,255,0.7);">Generated: August 24, 2026 at 6:53 PM IST</p>
+        </div>
+
+        <div class="summary-grid">
+            <div class="summary-card total"><div class="number">35</div><div class="label">Total Scenarios</div></div>
+            <div class="summary-card passed"><div class="number">19</div><div class="label">Passed ✅</div></div>
+            <div class="summary-card failed"><div class="number">16</div><div class="label">Failed ❌</div></div>
+            <div class="summary-card ambiguous"><div class="number">0</div><div class="label">Undefined</div></div>
+            <div class="summary-card rate"><div class="number">54%</div><div class="label">Pass Rate</div></div>
+        </div>
+
+        <div class="progress-bar" style="margin-bottom:24px;">
+            <div class="fill danger" style="width:54%;"></div>
+        </div>
+        
+        <div class="feature">
+            <div class="feature-accent parts"></div>
+            <div class="feature-header">
+                <div>
+                    <h2>🔄 Part Request Feature on Dealerspike <span class="tag tag-tag">@parts-request</span></h2>
+                    <div class="feature-meta">File: tests/features/UIFeature/partRequest.feature</div>
+                </div>
+                <div>
+                    <span class="status passed">✅ 2 Passed</span>
+                    <span class="status failed">❌ 2 Failed</span>
+                </div>
+            </div>
+            <table class="scenario-table">
+                <thead>
+                    <tr>
+                        <th style="width:40%;">Scenario</th>
+                        <th style="width:15%;">Status</th>
+                        <th style="width:45%;">Steps & Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="scenario-name">User can fill and submit complete part request form</span>
+                            <div class="scenario-tags"><span class="tag">@smoke</span><span class="tag">@ui</span><span class="tag">@dealerspike</span><span class="tag">@parts-request</span><span class="tag">@positive</span><span class="tag">@critical</span></div>
+                        </td>
+                        <td><span class="status failed">❌ Failed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://curtissandbox-v7.qa.dsp.leadventure.dev/request-parts-dealership--xparts_request&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ And: I handle any popups</span><br>
+                                <span style="color:#2e7d32;">✓ When: I fill in part request form with following details:</span><br>
+                                <span style="color:#2e7d32;">✓ And: I click the submit part request button</span><br>
+                                <span style="color:#c62828;">✗ Then: I should see a success message or confirmation — No success message or confirmation found</span><br>
+                                <span style="color:#757575;">- And: I should verify the request was submitted with reference number (skipped)</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">User can fill and submit complete part request form</span>
+                            <div class="scenario-tags"><span class="tag">@smoke</span><span class="tag">@ui</span><span class="tag">@dealerspike</span><span class="tag">@parts-request</span><span class="tag">@positive</span><span class="tag">@critical</span></div>
+                        </td>
+                        <td><span class="status failed">❌ Failed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://qa-v7-ws19.multisite1.dealerspike.net/request-parts-dealership--xparts_request&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ And: I handle any popups</span><br>
+                                <span style="color:#2e7d32;">✓ When: I fill in part request form with following details:</span><br>
+                                <span style="color:#2e7d32;">✓ And: I click the submit part request button</span><br>
+                                <span style="color:#c62828;">✗ Then: I should see a success message or confirmation — No success message or confirmation found</span><br>
+                                <span style="color:#757575;">- And: I should verify the request was submitted with reference number (skipped)</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">User cannot submit form with validation errors</span>
+                            <div class="scenario-tags"><span class="tag">@smoke</span><span class="tag">@ui</span><span class="tag">@dealerspike</span><span class="tag">@parts-request</span><span class="tag">@negative</span><span class="tag">@validation</span></div>
+                        </td>
+                        <td><span class="status passed">✅ Passed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://qa-v7-ws19.multisite1.dealerspike.net/request-parts-dealership--xparts_request&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ And: I handle any popups</span><br>
+                                <span style="color:#2e7d32;">✓ When: I click the submit part request button without filling form</span><br>
+                                <span style="color:#2e7d32;">✓ Then: I should see validation error messages</span><br>
+                                <span style="color:#2e7d32;">✓ And: I should see &quot;Please enter your first name&quot; error</span><br>
+                                <span style="color:#2e7d32;">✓ And: I should see &quot;Please enter a valid email address&quot; error</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">User cannot submit form with validation errors</span>
+                            <div class="scenario-tags"><span class="tag">@smoke</span><span class="tag">@ui</span><span class="tag">@dealerspike</span><span class="tag">@parts-request</span><span class="tag">@negative</span><span class="tag">@validation</span></div>
+                        </td>
+                        <td><span class="status passed">✅ Passed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://curtissandbox-v7.qa.dsp.leadventure.dev/request-parts-dealership--xparts_request&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ And: I handle any popups</span><br>
+                                <span style="color:#2e7d32;">✓ When: I click the submit part request button without filling form</span><br>
+                                <span style="color:#2e7d32;">✓ Then: I should see validation error messages</span><br>
+                                <span style="color:#2e7d32;">✓ And: I should see &quot;Please enter your first name&quot; error</span><br>
+                                <span style="color:#2e7d32;">✓ And: I should see &quot;Please enter a valid email address&quot; error</span>
+                            </div>
+                        </td>
+                    </tr></tbody>
+            </table>
+        </div>
+
+        <div class="feature">
+            <div class="feature-accent admin"></div>
+            <div class="feature-header">
+                <div>
+                    <h2>🔐 Admin Login and Dashboard <span class="tag tag-tag">@Admin</span></h2>
+                    <div class="feature-meta">File: tests/features/UIFeature/admin.feature</div>
+                </div>
+                <div>
+                    <span class="status passed">✅ 7 Passed</span>
+                    <span class="status failed">❌ 11 Failed</span>
+                </div>
+            </div>
+            <table class="scenario-table">
+                <thead>
+                    <tr>
+                        <th style="width:40%;">Scenario</th>
+                        <th style="width:15%;">Status</th>
+                        <th style="width:45%;">Steps & Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="scenario-name">Admin page is responsive — User should see all expected menu items</span>
+                            <div class="scenario-tags"><span class="tag">@p1</span><span class="tag">@Admin</span><span class="tag">@smoke</span></div>
+                        </td>
+                        <td><span class="status passed">✅ Passed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://powersports-v7-simple.qa.dsp.leadventure.dev/default.asp?page=xAdminLogin&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ Then: the admin login form should be visible and properly aligned</span><br>
+                                <span style="color:#2e7d32;">✓ And: all form elements should be clickable and accessible</span><br>
+                                <span style="color:#2e7d32;">✓ And: User enters username &quot;dealerspike&quot; and password &quot;ds4321&quot;</span><br>
+                                <span style="color:#2e7d32;">✓ And: click on the login button</span><br>
+                                <span style="color:#2e7d32;">✓ Then: User should see all expected menu items</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Admin page is responsive — User should see all expected menu items</span>
+                            <div class="scenario-tags"><span class="tag">@p1</span><span class="tag">@Admin</span><span class="tag">@smoke</span></div>
+                        </td>
+                        <td><span class="status failed">❌ Failed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://qa-v7-ws19.multisite1.dealerspike.net/default.asp?page=xAdminLogin&quot; site in browser</span><br>
+                                <span style="color:#c62828;">✗ Then: the admin login form should be visible and properly aligned — Admin login form is not visible</span><br>
+                                <span style="color:#757575;">- And: all form elements should be clickable and accessible (skipped)</span><br>
+                                <span style="color:#757575;">- And: User enters username &quot;dealerspike&quot; and password &quot;ds4321&quot; (skipped)</span><br>
+                                <span style="color:#757575;">- And: click on the login button (skipped)</span><br>
+                                <span style="color:#757575;">- Then: User should see all expected menu items (skipped)</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Admin page is responsive — User should see all expected menu items</span>
+                            <div class="scenario-tags"><span class="tag">@p1</span><span class="tag">@Admin</span><span class="tag">@smoke</span></div>
+                        </td>
+                        <td><span class="status passed">✅ Passed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://ridenowtucsonwest.qa.dsp.leadventure.dev/default.asp?page=xAdminLogin&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ Then: the admin login form should be visible and properly aligned</span><br>
+                                <span style="color:#2e7d32;">✓ And: all form elements should be clickable and accessible</span><br>
+                                <span style="color:#2e7d32;">✓ And: User enters username &quot;dealerspike&quot; and password &quot;ds4321&quot;</span><br>
+                                <span style="color:#2e7d32;">✓ And: click on the login button</span><br>
+                                <span style="color:#2e7d32;">✓ Then: I extract all unique links from the page</span><br>
+                                <span style="color:#2e7d32;">✓ Then I validate each link and report failures with screenshots</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Admin page is responsive — User should see all expected menu items</span>
+                            <div class="scenario-tags"><span class="tag">@p1</span><span class="tag">@Admin</span><span class="tag">@smoke</span></div>
+                        </td>
+                        <td><span class="status failed">❌ Failed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://qa-v7-ws19.multisite1.dealerspike.net/default.asp?page=xAdminLogin&quot; site in browser</span><br>
+                                <span style="color:#c62828;">✗ Then: the admin login form should be visible and properly aligned — Admin login form is not visible</span><br>
+                                <span style="color:#757575;">- And: all form elements should be clickable and accessible (skipped)</span><br>
+                                <span style="color:#757575;">- And: User enters username &quot;dealerspike&quot; and password &quot;ds4321&quot; (skipped)</span><br>
+                                <span style="color:#757575;">- And: click on the login button (skipped)</span><br>
+                                <span style="color:#757575;">- Then: I extract all unique links from the page (skipped)</span><br>
+                                <span style="color:#757575;">- Then I validate each link and report failures with screenshots (skipped)</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Admin page is verify links</span>
+                            <div class="scenario-tags"><span class="tag">@p1</span><span class="tag">@Admin</span><span class="tag">@smoke</span></div>
+                        </td>
+                        <td><span class="status passed">✅ Passed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://powersports-v7-simple.qa.dsp.leadventure.dev/default.asp?page=xAdminLogin&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ Then: the admin login form should be visible and properly aligned</span><br>
+                                <span style="color:#2e7d32;">✓ And: all form elements should be clickable and accessible</span><br>
+                                <span style="color:#2e7d32;">✓ And: User enters username &quot;dealerspike&quot; and password &quot;ds4321&quot;</span><br>
+                                <span style="color:#2e7d32;">✓ And: click on the login button</span><br>
+                                <span style="color:#2e7d32;">✓ Then: click on the &quot;Inventory&quot; menu item</span><br>
+                                <span style="color:#2e7d32;">✓ And: validate the &quot;Inventory&quot; menu links</span><br>
+                                <span style="color:#2e7d32;">✓ And: validate all the link items</span><br>
+                                <span style="color:#2e7d32;">✓ And: click every link under the &quot;Inventory&quot; menu and capture a screenshot for each link</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Admin page is verify links</span>
+                            <div class="scenario-tags"><span class="tag">@p1</span><span class="tag">@Admin</span><span class="tag">@smoke</span></div>
+                        </td>
+                        <td><span class="status failed">❌ Failed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://qa-v7-ws19.multisite1.dealerspike.net/default.asp?page=xAdminLogin&quot; site in browser</span><br>
+                                <span style="color:#c62828;">✗ Then: the admin login form should be visible and properly aligned — Admin login form is not visible</span><br>
+                                <span style="color:#757575;">- And: all form elements should be clickable and accessible (skipped)</span><br>
+                                <span style="color:#757575;">- And: User enters username &quot;dealerspike&quot; and password &quot;ds4321&quot; (skipped)</span><br>
+                                <span style="color:#757575;">- And: click on the login button (skipped)</span><br>
+                                <span style="color:#757575;">- Then: click on the &quot;DS Admin&quot; menu item (skipped)</span><br>
+                                <span style="color:#757575;">- And: validate the &quot;DS Admin&quot; menu links (skipped)</span><br>
+                                <span style="color:#757575;">- And: validate all the link items (skipped)</span><br>
+                                <span style="color:#757575;">- And: click every link under the &quot;DS Admin&quot; menu and capture a screenshot for each link (skipped)</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Admin page is verify links</span>
+                            <div class="scenario-tags"><span class="tag">@p1</span><span class="tag">@Admin</span><span class="tag">@smoke</span></div>
+                        </td>
+                        <td><span class="status failed">❌ Failed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://qa-v7-ws19.multisite1.dealerspike.net/default.asp?page=xAdminLogin&quot; site in browser</span><br>
+                                <span style="color:#c62828;">✗ Then: the admin login form should be visible and properly aligned — Admin login form is not visible</span><br>
+                                <span style="color:#757575;">- And: all form elements should be clickable and accessible (skipped)</span><br>
+                                <span style="color:#757575;">- And: User enters username &quot;dealerspike&quot; and password &quot;ds4321&quot; (skipped)</span><br>
+                                <span style="color:#757575;">- And: click on the login button (skipped)</span><br>
+                                <span style="color:#757575;">- Then: click on the &quot;Slideshows&quot; menu item (skipped)</span><br>
+                                <span style="color:#757575;">- And: validate the &quot;Slideshows&quot; menu links (skipped)</span><br>
+                                <span style="color:#757575;">- And: validate all the link items (skipped)</span><br>
+                                <span style="color:#757575;">- And: click every link under the &quot;Slideshows&quot; menu and capture a screenshot for each link (skipped)</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Admin page is verify links</span>
+                            <div class="scenario-tags"><span class="tag">@p1</span><span class="tag">@Admin</span><span class="tag">@smoke</span></div>
+                        </td>
+                        <td><span class="status passed">✅ Passed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://powersports-v7-simple.qa.dsp.leadventure.dev/default.asp?page=xAdminLogin&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ Then: the admin login form should be visible and properly aligned</span><br>
+                                <span style="color:#2e7d32;">✓ And: all form elements should be clickable and accessible</span><br>
+                                <span style="color:#2e7d32;">✓ And: User enters username &quot;dealerspike&quot; and password &quot;ds4321&quot;</span><br>
+                                <span style="color:#2e7d32;">✓ And: click on the login button</span><br>
+                                <span style="color:#2e7d32;">✓ Then: click on the &quot;Leads&quot; menu item</span><br>
+                                <span style="color:#2e7d32;">✓ And: validate the &quot;Leads&quot; menu links</span><br>
+                                <span style="color:#2e7d32;">✓ And: validate all the link items</span><br>
+                                <span style="color:#2e7d32;">✓ And: click every link under the &quot;Leads&quot; menu and capture a screenshot for each link</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Admin page is verify links</span>
+                            <div class="scenario-tags"><span class="tag">@p1</span><span class="tag">@Admin</span><span class="tag">@smoke</span></div>
+                        </td>
+                        <td><span class="status failed">❌ Failed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://qa-v7-ws19.multisite1.dealerspike.net/default.asp?page=xAdminLogin&quot; site in browser</span><br>
+                                <span style="color:#c62828;">✗ Then: the admin login form should be visible and properly aligned — Admin login form is not visible</span><br>
+                                <span style="color:#757575;">- And: all form elements should be clickable and accessible (skipped)</span><br>
+                                <span style="color:#757575;">- And: User enters username &quot;dealerspike&quot; and password &quot;ds4321&quot; (skipped)</span><br>
+                                <span style="color:#757575;">- And: click on the login button (skipped)</span><br>
+                                <span style="color:#757575;">- Then: click on the &quot;Inventory&quot; menu item (skipped)</span><br>
+                                <span style="color:#757575;">- And: validate the &quot;Inventory&quot; menu links (skipped)</span><br>
+                                <span style="color:#757575;">- And: validate all the link items (skipped)</span><br>
+                                <span style="color:#757575;">- And: click every link under the &quot;Inventory&quot; menu and capture a screenshot for each link (skipped)</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Admin page is verify links</span>
+                            <div class="scenario-tags"><span class="tag">@p1</span><span class="tag">@Admin</span><span class="tag">@smoke</span></div>
+                        </td>
+                        <td><span class="status passed">✅ Passed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://powersports-v7-simple.qa.dsp.leadventure.dev/default.asp?page=xAdminLogin&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ Then: the admin login form should be visible and properly aligned</span><br>
+                                <span style="color:#2e7d32;">✓ And: all form elements should be clickable and accessible</span><br>
+                                <span style="color:#2e7d32;">✓ And: User enters username &quot;dealerspike&quot; and password &quot;ds4321&quot;</span><br>
+                                <span style="color:#2e7d32;">✓ And: click on the login button</span><br>
+                                <span style="color:#2e7d32;">✓ Then: click on the &quot;Digital Marketing&quot; menu item</span><br>
+                                <span style="color:#2e7d32;">✓ And: validate the &quot;Digital Marketing&quot; menu links</span><br>
+                                <span style="color:#2e7d32;">✓ And: validate all the link items</span><br>
+                                <span style="color:#2e7d32;">✓ And: click every link under the &quot;Digital Marketing&quot; menu and capture a screenshot for each link</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Admin page is verify links</span>
+                            <div class="scenario-tags"><span class="tag">@p1</span><span class="tag">@Admin</span><span class="tag">@smoke</span></div>
+                        </td>
+                        <td><span class="status failed">❌ Failed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://qa-v7-ws19.multisite1.dealerspike.net/default.asp?page=xAdminLogin&quot; site in browser</span><br>
+                                <span style="color:#c62828;">✗ Then: the admin login form should be visible and properly aligned — Admin login form is not visible</span><br>
+                                <span style="color:#757575;">- And: all form elements should be clickable and accessible (skipped)</span><br>
+                                <span style="color:#757575;">- And: User enters username &quot;dealerspike&quot; and password &quot;ds4321&quot; (skipped)</span><br>
+                                <span style="color:#757575;">- And: click on the login button (skipped)</span><br>
+                                <span style="color:#757575;">- Then: click on the &quot;Leads&quot; menu item (skipped)</span><br>
+                                <span style="color:#757575;">- And: validate the &quot;Leads&quot; menu links (skipped)</span><br>
+                                <span style="color:#757575;">- And: validate all the link items (skipped)</span><br>
+                                <span style="color:#757575;">- And: click every link under the &quot;Leads&quot; menu and capture a screenshot for each link (skipped)</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Admin page is verify links</span>
+                            <div class="scenario-tags"><span class="tag">@p1</span><span class="tag">@Admin</span><span class="tag">@smoke</span></div>
+                        </td>
+                        <td><span class="status failed">❌ Failed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#757575;">- Given: User opens &quot;https://powersports-v7-simple.qa.dsp.leadventure.dev/default.asp?page=xAdminLogin&quot; site in browser (skipped)</span><br>
+                                <span style="color:#757575;">- Then: the admin login form should be visible and properly aligned (skipped)</span><br>
+                                <span style="color:#757575;">- And: all form elements should be clickable and accessible (skipped)</span><br>
+                                <span style="color:#757575;">- And: User enters username &quot;dealerspike&quot; and password &quot;ds4321&quot; (skipped)</span><br>
+                                <span style="color:#757575;">- And: click on the login button (skipped)</span><br>
+                                <span style="color:#757575;">- Then: click on the &quot;Inventory&quot; menu item (skipped)</span><br>
+                                <span style="color:#757575;">- And: validate the &quot;Inventory&quot; menu links (skipped)</span><br>
+                                <span style="color:#757575;">- And: validate all the link items (skipped)</span><br>
+                                <span style="color:#757575;">- And: click every link under the &quot;&lt;Content&gt;&quot; menu and capture a screenshot for each link (skipped)</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Admin page is verify links</span>
+                            <div class="scenario-tags"><span class="tag">@p1</span><span class="tag">@Admin</span><span class="tag">@smoke</span></div>
+                        </td>
+                        <td><span class="status passed">✅ Passed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://powersports-v7-simple.qa.dsp.leadventure.dev/default.asp?page=xAdminLogin&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ Then: the admin login form should be visible and properly aligned</span><br>
+                                <span style="color:#2e7d32;">✓ And: all form elements should be clickable and accessible</span><br>
+                                <span style="color:#2e7d32;">✓ And: User enters username &quot;dealerspike&quot; and password &quot;ds4321&quot;</span><br>
+                                <span style="color:#2e7d32;">✓ And: click on the login button</span><br>
+                                <span style="color:#2e7d32;">✓ Then: click on the &quot;DS Admin&quot; menu item</span><br>
+                                <span style="color:#2e7d32;">✓ And: validate the &quot;DS Admin&quot; menu links</span><br>
+                                <span style="color:#2e7d32;">✓ And: validate all the link items</span><br>
+                                <span style="color:#2e7d32;">✓ And: click every link under the &quot;DS Admin&quot; menu and capture a screenshot for each link</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Admin page is verify links</span>
+                            <div class="scenario-tags"><span class="tag">@p1</span><span class="tag">@Admin</span><span class="tag">@smoke</span></div>
+                        </td>
+                        <td><span class="status passed">✅ Passed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://powersports-v7-simple.qa.dsp.leadventure.dev/default.asp?page=xAdminLogin&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ Then: the admin login form should be visible and properly aligned</span><br>
+                                <span style="color:#2e7d32;">✓ And: all form elements should be clickable and accessible</span><br>
+                                <span style="color:#2e7d32;">✓ And: User enters username &quot;dealerspike&quot; and password &quot;ds4321&quot;</span><br>
+                                <span style="color:#2e7d32;">✓ And: click on the login button</span><br>
+                                <span style="color:#2e7d32;">✓ Then: click on the &quot;Slideshows&quot; menu item</span><br>
+                                <span style="color:#2e7d32;">✓ And: validate the &quot;Slideshows&quot; menu links</span><br>
+                                <span style="color:#2e7d32;">✓ And: validate all the link items</span><br>
+                                <span style="color:#2e7d32;">✓ And: click every link under the &quot;Slideshows&quot; menu and capture a screenshot for each link</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Admin page is verify links</span>
+                            <div class="scenario-tags"><span class="tag">@p1</span><span class="tag">@Admin</span><span class="tag">@smoke</span></div>
+                        </td>
+                        <td><span class="status failed">❌ Failed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://qa-v7-ws19.multisite1.dealerspike.net/default.asp?page=xAdminLogin&quot; site in browser</span><br>
+                                <span style="color:#c62828;">✗ Then: the admin login form should be visible and properly aligned — Admin login form is not visible</span><br>
+                                <span style="color:#757575;">- And: all form elements should be clickable and accessible (skipped)</span><br>
+                                <span style="color:#757575;">- And: User enters username &quot;dealerspike&quot; and password &quot;ds4321&quot; (skipped)</span><br>
+                                <span style="color:#757575;">- And: click on the login button (skipped)</span><br>
+                                <span style="color:#757575;">- Then: click on the &quot;Digital Marketing&quot; menu item (skipped)</span><br>
+                                <span style="color:#757575;">- And: validate the &quot;Digital Marketing&quot; menu links (skipped)</span><br>
+                                <span style="color:#757575;">- And: validate all the link items (skipped)</span><br>
+                                <span style="color:#757575;">- And: click every link under the &quot;Digital Marketing&quot; menu and capture a screenshot for each link (skipped)</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Admin page is verify links</span>
+                            <div class="scenario-tags"><span class="tag">@p1</span><span class="tag">@Admin</span><span class="tag">@smoke</span></div>
+                        </td>
+                        <td><span class="status failed">❌ Failed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#757575;">- Given: User opens &quot;https://powersports-v7-simple.qa.dsp.leadventure.dev/default.asp?page=xAdminLogin&quot; site in browser (skipped)</span><br>
+                                <span style="color:#757575;">- Then: the admin login form should be visible and properly aligned (skipped)</span><br>
+                                <span style="color:#757575;">- And: all form elements should be clickable and accessible (skipped)</span><br>
+                                <span style="color:#757575;">- And: User enters username &quot;dealerspike&quot; and password &quot;ds4321&quot; (skipped)</span><br>
+                                <span style="color:#757575;">- And: click on the login button (skipped)</span><br>
+                                <span style="color:#757575;">- Then: click on the &quot;Slideshows&quot; menu item (skipped)</span><br>
+                                <span style="color:#757575;">- And: validate the &quot;Slideshows&quot; menu links (skipped)</span><br>
+                                <span style="color:#757575;">- And: validate all the link items (skipped)</span><br>
+                                <span style="color:#757575;">- And: click every link under the &quot;&lt;Content&gt;&quot; menu and capture a screenshot for each link (skipped)</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Admin page is verify links</span>
+                            <div class="scenario-tags"><span class="tag">@p1</span><span class="tag">@Admin</span><span class="tag">@smoke</span></div>
+                        </td>
+                        <td><span class="status failed">❌ Failed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#757575;">- Given: User opens &quot;https://powersports-v7-simple.qa.dsp.leadventure.dev/default.asp?page=xAdminLogin&quot; site in browser (skipped)</span><br>
+                                <span style="color:#757575;">- Then: the admin login form should be visible and properly aligned (skipped)</span><br>
+                                <span style="color:#757575;">- And: all form elements should be clickable and accessible (skipped)</span><br>
+                                <span style="color:#757575;">- And: User enters username &quot;dealerspike&quot; and password &quot;ds4321&quot; (skipped)</span><br>
+                                <span style="color:#757575;">- And: click on the login button (skipped)</span><br>
+                                <span style="color:#757575;">- Then: click on the &quot;Leads&quot; menu item (skipped)</span><br>
+                                <span style="color:#757575;">- And: validate the &quot;Leads&quot; menu links (skipped)</span><br>
+                                <span style="color:#757575;">- And: validate all the link items (skipped)</span><br>
+                                <span style="color:#757575;">- And: click every link under the &quot;&lt;Content&gt;&quot; menu and capture a screenshot for each link (skipped)</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Admin page is verify links</span>
+                            <div class="scenario-tags"><span class="tag">@p1</span><span class="tag">@Admin</span><span class="tag">@smoke</span></div>
+                        </td>
+                        <td><span class="status failed">❌ Failed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#757575;">- Given: User opens &quot;https://powersports-v7-simple.qa.dsp.leadventure.dev/default.asp?page=xAdminLogin&quot; site in browser (skipped)</span><br>
+                                <span style="color:#757575;">- Then: the admin login form should be visible and properly aligned (skipped)</span><br>
+                                <span style="color:#757575;">- And: all form elements should be clickable and accessible (skipped)</span><br>
+                                <span style="color:#757575;">- And: User enters username &quot;dealerspike&quot; and password &quot;ds4321&quot; (skipped)</span><br>
+                                <span style="color:#757575;">- And: click on the login button (skipped)</span><br>
+                                <span style="color:#757575;">- Then: click on the &quot;Digital Marketing&quot; menu item (skipped)</span><br>
+                                <span style="color:#757575;">- And: validate the &quot;Digital Marketing&quot; menu links (skipped)</span><br>
+                                <span style="color:#757575;">- And: validate all the link items (skipped)</span><br>
+                                <span style="color:#757575;">- And: click every link under the &quot;&lt;Content&gt;&quot; menu and capture a screenshot for each link (skipped)</span>
+                            </div>
+                        </td>
+                    </tr></tbody>
+            </table>
+        </div>
+
+        <div class="feature">
+            <div class="feature-accent filters"></div>
+            <div class="feature-header">
+                <div>
+                    <h2>🔍 Inventory Filters - Corrected <span class="tag tag-tag">@filters</span></h2>
+                    <div class="feature-meta">File: tests/features/UIFeature/inventory_filters_corrected.feature</div>
+                </div>
+                <div>
+                    <span class="status passed">✅ 6 Passed</span>
+                    <span class="status failed">❌ 1 Failed</span>
+                </div>
+            </div>
+            <table class="scenario-table">
+                <thead>
+                    <tr>
+                        <th style="width:40%;">Scenario</th>
+                        <th style="width:15%;">Status</th>
+                        <th style="width:45%;">Steps & Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="scenario-name">Inventory filters work correctly - Fixed</span>
+                            <div class="scenario-tags"><span class="tag">@Inventory</span><span class="tag">@filters</span><span class="tag">@smoke</span><span class="tag">@Goldenset</span></div>
+                        </td>
+                        <td><span class="status failed">❌ Failed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://automationsandbox-v7.clients.dealerspike.net/default.asp?page=xAllInventory&amp;pg=1&quot; site in browser</span><br>
+                                <span style="color:#c62828;">✗ When: I select category &quot;Motorcycles&quot; from categories filter — Could not select category &#39;Motorcycles&#39;</span><br>
+                                <span style="color:#757575;">- Then: the results should be filtered by category &quot;Motorcycles&quot; (skipped)</span><br>
+                                <span style="color:#757575;">- When: I select make &quot;Harley-Davidson&quot; from makes filter (skipped)</span><br>
+                                <span style="color:#757575;">- Then: the results should be filtered by make &quot;Harley-Davidson&quot; (skipped)</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Inventory filters work correctly - Fixed</span>
+                            <div class="scenario-tags"><span class="tag">@Inventory</span><span class="tag">@filters</span><span class="tag">@smoke</span><span class="tag">@Goldenset</span></div>
+                        </td>
+                        <td><span class="status passed">✅ Passed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://curtissandbox-v7.qa.dsp.leadventure.dev/default.asp?page=xAllInventory&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ When: I select category &quot;Motorcycles&quot; from categories filter</span><br>
+                                <span style="color:#2e7d32;">✓ Then: the results should be filtered by category &quot;Motorcycles&quot;</span><br>
+                                <span style="color:#2e7d32;">✓ When: I select make &quot;Harley-Davidson&quot; from makes filter</span><br>
+                                <span style="color:#2e7d32;">✓ Then: the results should be filtered by make &quot;Harley-Davidson&quot;</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Filter by valid Honda make</span>
+                            <div class="scenario-tags"><span class="tag">@Inventory</span><span class="tag">@filters</span><span class="tag">@smoke</span><span class="tag">@Goldenset</span></div>
+                        </td>
+                        <td><span class="status passed">✅ Passed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://curtissandbox-v7.qa.dsp.leadventure.dev/default.asp?page=xAllInventory&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ When: I select make &quot;Honda&quot; from makes filter</span><br>
+                                <span style="color:#2e7d32;">✓ Then: the results should be filtered by make &quot;Honda&quot;</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Filter by valid Honda make</span>
+                            <div class="scenario-tags"><span class="tag">@Inventory</span><span class="tag">@filters</span><span class="tag">@smoke</span><span class="tag">@Goldenset</span></div>
+                        </td>
+                        <td><span class="status passed">✅ Passed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://automationsandbox-v7.clients.dealerspike.net/default.asp?page=xAllInventory&amp;pg=1&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ When: I select make &quot;Honda&quot; from makes filter</span><br>
+                                <span style="color:#2e7d32;">✓ Then: the results should be filtered by make &quot;Honda&quot;</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Filter by Yamaha make</span>
+                            <div class="scenario-tags"><span class="tag">@Inventory</span><span class="tag">@filters</span><span class="tag">@smoke</span><span class="tag">@Goldenset</span></div>
+                        </td>
+                        <td><span class="status passed">✅ Passed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://automationsandbox-v7.clients.dealerspike.net/default.asp?page=xAllInventory&amp;pg=1&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ When: I select make &quot;Yamaha&quot; from makes filter</span><br>
+                                <span style="color:#2e7d32;">✓ Then: the results should be filtered by make &quot;Yamaha&quot;</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Filter by Yamaha make</span>
+                            <div class="scenario-tags"><span class="tag">@Inventory</span><span class="tag">@filters</span><span class="tag">@smoke</span><span class="tag">@Goldenset</span></div>
+                        </td>
+                        <td><span class="status passed">✅ Passed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://automationsandbox-v7.clients.dealerspike.net/default.asp?page=xAllInventory&amp;pg=2&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ When: I select make &quot;Yamaha&quot; from makes filter</span><br>
+                                <span style="color:#2e7d32;">✓ Then: the results should be filtered by make &quot;Yamaha&quot;</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">Validate showroom inventory with database</span>
+                            <div class="scenario-tags"><span class="tag">@Inventory</span><span class="tag">@filters</span><span class="tag">@smoke</span><span class="tag">@Goldenset</span><span class="tag">@wip</span></div>
+                        </td>
+                        <td><span class="status passed">✅ Passed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://automationsandbox-v7.clients.dealerspike.net&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ When: I click on showroom breadcrumb and select &quot;All inventory&quot;</span><br>
+                                <span style="color:#2e7d32;">✓ And: I should be navigated to inventory page</span><br>
+                                <span style="color:#2e7d32;">✓ Then: I should connect with DB and fetch inventory details</span><br>
+                                <span style="color:#2e7d32;">✓ Then: matched the results with UI and DB and validate the results</span>
+                            </div>
+                        </td>
+                    </tr></tbody>
+            </table>
+        </div>
+
+        <div class="feature">
+            <div class="feature-accent testimonial"></div>
+            <div class="feature-header">
+                <div>
+                    <h2>⭐ Testimonial Submission Feature on Dealerspike <span class="tag tag-tag">@testimonial</span></h2>
+                    <div class="feature-meta">File: tests/features/UIFeature/testimonial.feature</div>
+                </div>
+                <div>
+                    <span class="status passed">✅ 4 Passed</span>
+                    <span class="status failed">❌ 2 Failed</span>
+                </div>
+            </div>
+            <table class="scenario-table">
+                <thead>
+                    <tr>
+                        <th style="width:40%;">Scenario</th>
+                        <th style="width:15%;">Status</th>
+                        <th style="width:45%;">Steps & Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="scenario-name">User can fill and submit complete testimonial survey form with static data</span>
+                            <div class="scenario-tags"><span class="tag">@positive</span><span class="tag">@testimonial</span><span class="tag">@smoke</span><span class="tag">@static-data</span></div>
+                        </td>
+                        <td><span class="status passed">✅ Passed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://curtissandbox-v7.qa.dsp.leadventure.dev/submit-reviews-testimonials-atvs-utvs-dealership--xsurvey&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ And: I handle any testimonial page popups</span><br>
+                                <span style="color:#2e7d32;">✓ When: I fill in testimonial form with following details:</span><br>
+                                <span style="color:#2e7d32;">✓ And: I click the submit testimonial button</span><br>
+                                <span style="color:#2e7d32;">✓ Then: I should see a testimonial success message or confirmation</span><br>
+                                <span style="color:#2e7d32;">✓ And: I should not see any technical errors like &quot;USP_LeadLog_Step4&quot;</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">User can fill and submit complete testimonial survey form with static data</span>
+                            <div class="scenario-tags"><span class="tag">@positive</span><span class="tag">@testimonial</span><span class="tag">@smoke</span><span class="tag">@static-data</span></div>
+                        </td>
+                        <td><span class="status passed">✅ Passed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://qa-v7-ws19.multisite1.dealerspike.net/submit-reviews-testimonials-atvs-utvs-dealership--xsurvey&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ And: I handle any testimonial page popups</span><br>
+                                <span style="color:#2e7d32;">✓ When: I fill in testimonial form with following details:</span><br>
+                                <span style="color:#2e7d32;">✓ And: I click the submit testimonial button</span><br>
+                                <span style="color:#2e7d32;">✓ Then: I should see a testimonial success message or confirmation</span><br>
+                                <span style="color:#2e7d32;">✓ And: I should not see any technical errors like &quot;USP_LeadLog_Step4&quot;</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">User can fill and submit complete testimonial survey form with Faker dynamic data</span>
+                            <div class="scenario-tags"><span class="tag">@positive</span><span class="tag">@testimonial</span><span class="tag">@smoke</span><span class="tag">@faker</span></div>
+                        </td>
+                        <td><span class="status passed">✅ Passed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://curtissandbox-v7.qa.dsp.leadventure.dev/submit-reviews-testimonials-atvs-utvs-dealership--xsurvey&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ And: I handle any testimonial page popups</span><br>
+                                <span style="color:#2e7d32;">✓ When: I fill the testimonial form with dynamic data</span><br>
+                                <span style="color:#2e7d32;">✓ And: I click the submit testimonial button</span><br>
+                                <span style="color:#2e7d32;">✓ Then: I should see a testimonial success message or confirmation</span><br>
+                                <span style="color:#2e7d32;">✓ And: I should not see any technical errors like &quot;USP_LeadLog_Step4&quot;</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">User can fill and submit complete testimonial survey form with Faker dynamic data</span>
+                            <div class="scenario-tags"><span class="tag">@positive</span><span class="tag">@testimonial</span><span class="tag">@smoke</span><span class="tag">@faker</span></div>
+                        </td>
+                        <td><span class="status passed">✅ Passed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://qa-v7-ws19.multisite1.dealerspike.net/submit-reviews-testimonials-atvs-utvs-dealership--xsurvey&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ And: I handle any testimonial page popups</span><br>
+                                <span style="color:#2e7d32;">✓ When: I fill the testimonial form with dynamic data</span><br>
+                                <span style="color:#2e7d32;">✓ And: I click the submit testimonial button</span><br>
+                                <span style="color:#2e7d32;">✓ Then: I should see a testimonial success message or confirmation</span><br>
+                                <span style="color:#2e7d32;">✓ And: I should not see any technical errors like &quot;USP_LeadLog_Step4&quot;</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">User cannot submit form with validation errors</span>
+                            <div class="scenario-tags"><span class="tag">@negative</span><span class="tag">@validation</span><span class="tag">@smoke</span></div>
+                        </td>
+                        <td><span class="status failed">❌ Failed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://qa-v7-ws19.multisite1.dealerspike.net/submit-reviews-testimonials-atvs-utvs-dealership--xsurvey&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ And: I handle any testimonial page popups</span><br>
+                                <span style="color:#2e7d32;">✓ When: I click the submit testimonial button without filling form</span><br>
+                                <span style="color:#2e7d32;">✓ Then: I should see testimonial validation error messages</span><br>
+                                <span style="color:#c62828;">✗ And: I should see testimonial &quot;First Name is required&quot; error — expect(locator).toBeVisible() failed</span><br>
+                                <span style="color:#757575;">- And: I should see testimonial &quot;Last Name is required&quot; error (skipped)</span><br>
+                                <span style="color:#757575;">- And: I should see testimonial &quot;Email is required&quot; error (skipped)</span><br>
+                                <span style="color:#757575;">- And: I should see testimonial &quot;Overall Dealership Experience is required&quot; error (skipped)</span><br>
+                                <span style="color:#757575;">- And: I should see testimonial &quot;Comments/Questions is required&quot; error (skipped)</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="scenario-name">User cannot submit form with validation errors</span>
+                            <div class="scenario-tags"><span class="tag">@negative</span><span class="tag">@validation</span><span class="tag">@smoke</span></div>
+                        </td>
+                        <td><span class="status failed">❌ Failed</span></td>
+                        <td>
+                            <div class="steps-detail">
+                                <span style="color:#2e7d32;">✓ Given: User opens &quot;https://curtissandbox-v7.qa.dsp.leadventure.dev/submit-reviews-testimonials-atvs-utvs-dealership--xsurvey&quot; site in browser</span><br>
+                                <span style="color:#2e7d32;">✓ And: I handle any testimonial page popups</span><br>
+                                <span style="color:#2e7d32;">✓ When: I click the submit testimonial button without filling form</span><br>
+                                <span style="color:#2e7d32;">✓ Then: I should see testimonial validation error messages</span><br>
+                                <span style="color:#c62828;">✗ And: I should see testimonial &quot;First Name is required&quot; error — expect(locator).toBeVisible() failed</span><br>
+                                <span style="color:#757575;">- And: I should see testimonial &quot;Last Name is required&quot; error (skipped)</span><br>
+                                <span style="color:#757575;">- And: I should see testimonial &quot;Email is required&quot; error (skipped)</span><br>
+                                <span style="color:#757575;">- And: I should see testimonial &quot;Overall Dealership Experience is required&quot; error (skipped)</span><br>
+                                <span style="color:#757575;">- And: I should see testimonial &quot;Comments/Questions is required&quot; error (skipped)</span>
+                            </div>
+                        </td>
+                    </tr></tbody>
+            </table>
+        </div>
+
+        <div class="feature" style="border-left: 4px solid #1a237e;">
+            <div class="feature-header"><div><h2>📋 Executive Summary</h2></div></div>
+            <div style="padding:20px;">
+                <table style="width:100%;border-collapse:collapse;">
+                    <tr>
+                        <th style="text-align:left;padding:8px;border-bottom:2px solid #eee;">Feature (Tag)</th>
+                        <th style="padding:8px;border-bottom:2px solid #eee;">Total</th>
+                        <th style="padding:8px;border-bottom:2px solid #eee;">Passed</th>
+                        <th style="padding:8px;border-bottom:2px solid #eee;">Failed</th>
+                        <th style="padding:8px;border-bottom:2px solid #eee;">Other</th>
+                        <th style="padding:8px;border-bottom:2px solid #eee;">Pass Rate</th>
+                    </tr>
+                    
+                    <tr>
+                        <td style="padding:8px;border-bottom:1px solid #eee;"><span style="color:#ff7043;font-weight:500;">@parts-request</span> - Part Request Feature on Dealerspike</td>
+                        <td style="padding:8px;border-bottom:1px solid #eee;text-align:center;">4</td>
+                        <td style="padding:8px;border-bottom:1px solid #eee;text-align:center;color:#2e7d32;">2</td>
+                        <td style="padding:8px;border-bottom:1px solid #eee;text-align:center;color:#c62828;">2</td>
+                        <td style="padding:8px;border-bottom:1px solid #eee;text-align:center;color:#6a1b9a;">0</td>
+                        <td style="padding:8px;border-bottom:1px solid #eee;text-align:center;font-weight:600;">50%</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:8px;border-bottom:1px solid #eee;"><span style="color:#42a5f5;font-weight:500;">@Admin</span> - Admin Login and Dashboard</td>
+                        <td style="padding:8px;border-bottom:1px solid #eee;text-align:center;">18</td>
+                        <td style="padding:8px;border-bottom:1px solid #eee;text-align:center;color:#2e7d32;">7</td>
+                        <td style="padding:8px;border-bottom:1px solid #eee;text-align:center;color:#c62828;">11</td>
+                        <td style="padding:8px;border-bottom:1px solid #eee;text-align:center;color:#6a1b9a;">0</td>
+                        <td style="padding:8px;border-bottom:1px solid #eee;text-align:center;font-weight:600;">39%</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:8px;border-bottom:1px solid #eee;"><span style="color:#66bb6a;font-weight:500;">@filters</span> - Inventory Filters - Corrected</td>
+                        <td style="padding:8px;border-bottom:1px solid #eee;text-align:center;">7</td>
+                        <td style="padding:8px;border-bottom:1px solid #eee;text-align:center;color:#2e7d32;">6</td>
+                        <td style="padding:8px;border-bottom:1px solid #eee;text-align:center;color:#c62828;">1</td>
+                        <td style="padding:8px;border-bottom:1px solid #eee;text-align:center;color:#6a1b9a;">0</td>
+                        <td style="padding:8px;border-bottom:1px solid #eee;text-align:center;font-weight:600;">86%</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:8px;border-bottom:1px solid #eee;"><span style="color:#ab47bc;font-weight:500;">@testimonial</span> - Testimonial Submission Feature on Dealerspike</td>
+                        <td style="padding:8px;border-bottom:1px solid #eee;text-align:center;">6</td>
+                        <td style="padding:8px;border-bottom:1px solid #eee;text-align:center;color:#2e7d32;">4</td>
+                        <td style="padding:8px;border-bottom:1px solid #eee;text-align:center;color:#c62828;">2</td>
+                        <td style="padding:8px;border-bottom:1px solid #eee;text-align:center;color:#6a1b9a;">0</td>
+                        <td style="padding:8px;border-bottom:1px solid #eee;text-align:center;font-weight:600;">67%</td>
+                    </tr>
+                    <tr style="background:#f5f7fa;font-weight:600;">
+                        <td style="padding:12px 8px;">TOTAL</td>
+                        <td style="padding:12px 8px;text-align:center;">35</td>
+                        <td style="padding:12px 8px;text-align:center;color:#2e7d32;">19</td>
+                        <td style="padding:12px 8px;text-align:center;color:#c62828;">16</td>
+                        <td style="padding:12px 8px;text-align:center;color:#6a1b9a;">0</td>
+                        <td style="padding:12px 8px;text-align:center;color:#1565c0;">54%</td>
+                    </tr>
+                </table>
+
+                <h3 style="margin-top:24px;margin-bottom:12px;">🔧 Known Issues & Failures</h3>
+                <ul style="line-height:1.8;padding-left:20px;">
+                <li><strong>Part Request Feature on Dealerspike:</strong> User can fill and submit complete part request form — No success message or confirmation found</li>
+                <li><strong>Part Request Feature on Dealerspike:</strong> User can fill and submit complete part request form — No success message or confirmation found</li>
+                <li><strong>Admin Login and Dashboard:</strong> Admin page is responsive — User should see all expected menu items — Admin login form is not visible</li>
+                <li><strong>Admin Login and Dashboard:</strong> Admin page is responsive — User should see all expected menu items — Admin login form is not visible</li>
+                <li><strong>Admin Login and Dashboard:</strong> Admin page is verify links — Admin login form is not visible</li>
+                <li><strong>Admin Login and Dashboard:</strong> Admin page is verify links — Admin login form is not visible</li>
+                <li><strong>Admin Login and Dashboard:</strong> Admin page is verify links — Admin login form is not visible</li>
+                <li><strong>Admin Login and Dashboard:</strong> Admin page is verify links — Admin login form is not visible</li>
+                <li><strong>Admin Login and Dashboard:</strong> Admin page is verify links — browser.newContext: Target page, context or browser has been closed</li>
+                <li><strong>Admin Login and Dashboard:</strong> Admin page is verify links — Admin login form is not visible</li>
+                <li><strong>Admin Login and Dashboard:</strong> Admin page is verify links — browser.newContext: Target page, context or browser has been closed</li>
+                <li><strong>Admin Login and Dashboard:</strong> Admin page is verify links — browser.newContext: Target page, context or browser has been closed</li>
+                <li><strong>Admin Login and Dashboard:</strong> Admin page is verify links — browser.newContext: Target page, context or browser has been closed</li>
+                <li><strong>Inventory Filters - Corrected:</strong> Inventory filters work correctly - Fixed — Could not select category &#39;Motorcycles&#39;</li>
+                <li><strong>Testimonial Submission Feature on Dealerspike:</strong> User cannot submit form with validation errors — expect(locator).toBeVisible() failed</li>
+                <li><strong>Testimonial Submission Feature on Dealerspike:</strong> User cannot submit form with validation errors — expect(locator).toBeVisible() failed</li>
+                </ul>
+            </div>
+        </div>
+
+        <div style="text-align:center;padding:20px;color:#999;font-size:13px;">
+            Dealerspike QA Automation Framework | Test Execution Report | Generated automatically from allure-results
+        </div>
+    </div>
+</body>
+</html>

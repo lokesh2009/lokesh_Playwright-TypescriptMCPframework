@@ -1,0 +1,23 @@
+# Enforce LF (Unix-style) line endings for text files
+* text=auto eol=lf
+
+# Explicit mappings for common text files
+*.js text eol=lf
+*.ts text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+*.feature text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.zip binary
+*.jar binary
+*.exe binary
